@@ -11,7 +11,9 @@
 body {
   margin: 0;
   min-width: 320px;
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image: radial-gradient(circle, rgb(23 23 20 / 0.48) 1px, transparent 1.35px);
+  background-size: 21px 25px;
   color: var(--ink);
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 14px;
