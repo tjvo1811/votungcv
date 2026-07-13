@@ -27,6 +27,12 @@ body {
   padding: 74px 0 64px;
 }
 
+.page > * {
+  width: 153.8462%;
+  transform: scaleX(0.65);
+  transform-origin: left top;
+}
+
 h1, h2, h3, p { margin: 0; }
 
 h1 {
