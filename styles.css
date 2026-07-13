@@ -18,11 +18,12 @@ body {
   font-weight: 500;
   line-height: 1.45;
   letter-spacing: -0.018em;
+  word-spacing: -0.18em;
   -webkit-font-smoothing: antialiased;
 }
 
 .page {
-  width: min(100% - 48px, 699px);
+  width: min(100% - 48px, 804px);
   margin: 0 auto;
   padding: 66.6px 0 64px;
 }
@@ -80,9 +81,9 @@ h2 {
 article { padding: 16px 0 19px; border-top: 1px solid var(--rule); }
 article:last-child { border-bottom: 1px solid var(--rule); }
 
-.research-list { display: grid; width: 90%; gap: 25px; margin: 0; padding-left: 29px; }
+.research-list { display: grid; width: 72%; gap: 25px; margin: 0; padding-left: 35px; }
 .research-list > li { padding-left: 6px; }
-.research-list h3 { margin-bottom: 8px; font-size: 14px; font-style: italic; font-weight: 500; }
+.research-list h3 { margin-bottom: 8px; font-family: inherit; font-size: inherit; font-weight: inherit; font-style: italic; line-height: inherit; letter-spacing: inherit; }
 .research-points { display: grid; gap: 7px; margin: 0; padding: 0 0 0 29px; list-style: none; }
 .research-points li { position: relative; }
 .research-points li::before { content: '›'; position: absolute; left: -27px; color: var(--ink); }
@@ -117,10 +118,10 @@ footer { margin-top: 56px; color: var(--quiet); font-size: 12px; }
 
 @media (max-width: 560px) {
   body { font-size: 13px; line-height: 1.4; }
-  .page { width: min(100% - 36px, 699px); padding-top: 40.5px; }
+  .page { width: min(100% - 36px, 804px); padding-top: 40.5px; }
   .breadcrumb { font-size: 16px; }
   .plain-list span { display: block; margin-bottom: 3px; }
-  .research-list { width: 90%; padding-left: 23px; }
+  .research-list { width: 72%; padding-left: 28px; }
   .research-points { padding-left: 21px; }
   .research-points li::before { left: -20px; }
 }
