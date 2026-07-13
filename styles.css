@@ -75,7 +75,7 @@ h2 {
   gap: 11px;
   align-items: baseline;
   margin-bottom: 8px;
-  font-size: 18px;
+  font-size: inherit;
 }
 
 article { padding: 16px 0 19px; border-top: 1px solid var(--rule); }
@@ -119,7 +119,7 @@ footer { margin-top: 56px; color: var(--quiet); font-size: 12px; }
 @media (max-width: 560px) {
   body { font-size: 13px; line-height: 1.4; }
   .page { width: min(100% - 36px, 804px); padding-top: 28px; }
-  .breadcrumb { font-size: 16px; }
+  .breadcrumb { font-size: inherit; }
   .plain-list span { display: block; margin-bottom: 3px; }
   .research-list { width: 72%; padding-left: 28px; }
   .research-points { padding-left: 21px; }
