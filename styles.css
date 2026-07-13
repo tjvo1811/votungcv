@@ -32,7 +32,7 @@ h1, h2, h3, p { margin: 0; }
 
 h1 {
   color: var(--forest);
-  font-size: clamp(24.5px, 3.92vw, 31.36px);
+  font-size: clamp(22.05px, 3.528vw, 28.224px);
   line-height: 1.18;
   letter-spacing: -0.055em;
   font-weight: 840;
