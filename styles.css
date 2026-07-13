@@ -85,6 +85,8 @@ article:last-child { border-bottom: 1px solid var(--rule); }
 .research-points li { position: relative; }
 .research-points li::before { content: '›'; position: absolute; left: -27px; color: var(--ink); }
 .research-points span { display: block; margin-bottom: 7px; color: var(--quiet); font-size: 11px; }
+.research-points .research-meta::before { content: none; }
+.research-points .research-meta span { margin-bottom: 0; }
 
 .eyebrow {
   margin-bottom: 5px;
