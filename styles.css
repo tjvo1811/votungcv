@@ -22,7 +22,7 @@ body {
 }
 
 .page {
-  width: min(100% - 48px, 760px);
+  width: min(100% - 48px, 494px);
   margin: 0 auto;
   padding: 74px 0 64px;
 }
@@ -117,7 +117,7 @@ footer { margin-top: 56px; color: var(--quiet); font-size: 12px; }
 
 @media (max-width: 560px) {
   body { font-size: 13px; line-height: 1.4; }
-  .page { width: min(100% - 36px, 760px); padding-top: 45px; }
+  .page { width: min(100% - 36px, 494px); padding-top: 45px; }
   .breadcrumb { font-size: 16px; }
   .plain-list span { display: block; margin-bottom: 3px; }
   .research-list { padding-left: 20px; }
