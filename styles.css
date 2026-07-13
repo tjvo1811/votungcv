@@ -126,6 +126,11 @@ h3 { margin-bottom: 7px; font-size: 14px; line-height: 1.5; font-weight: 700; }
 .plain-list span { display: inline-block; min-width: 113px; color: var(--quiet); font-size: 11px; }
 .plain-list.compact li { padding: 10px 0; }
 
+.presentation-list li { padding: 17px 0; }
+.presentation-title { font-weight: 700; line-height: 1.4; }
+.presentation-meta { margin-top: 5px; color: var(--quiet); font-size: 12px; line-height: 1.45; }
+.presentation-action { display: inline-block; margin-top: 6px; }
+
 footer { margin-top: 56px; color: var(--quiet); font-size: 12px; }
 
 @media (max-width: 560px) {
