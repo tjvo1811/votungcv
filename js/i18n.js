@@ -1,9 +1,9 @@
 /**
- * Language preference + automatic browser-language detection.
+ * Explicit language preference.
  * Manual selection always wins and is persisted.
  */
 window.SiteI18n = (() => {
-  const STORAGE_KEY = "tungvo-preferred-lang";
+  const STORAGE_KEY = "tungvo-manual-lang";
   const SITE_ORIGIN = "https://www.tung-vo.com";
 
   const getPreferredLang = () => {
@@ -23,34 +23,17 @@ window.SiteI18n = (() => {
     }
   };
 
-  const browserPrefersVietnamese = () => {
-    const languages = navigator.languages?.length
-      ? navigator.languages
-      : [navigator.language || navigator.userLanguage];
-    return languages.some((code) => /^vi(?:-|$)/i.test(String(code || "")));
-  };
-
   /**
-   * Automatically route first-time root visitors to Vietnamese when their
-   * browser prefers Vietnamese. Explicit language choices always win.
+   * Apply an explicitly selected language, without inferring one from the
+   * browser or device settings.
    */
   const maybeSuggestLanguageRedirect = (currentLang) => {
     const preferred = getPreferredLang();
-    if (preferred) {
-      if (preferred !== currentLang) {
-        const target = preferred === "vi" ? "/vi/" : "/";
-        location.replace(target + location.hash);
-        return true;
-      }
-      return false;
-    }
+    if (!preferred || preferred === currentLang) return false;
 
-    if (currentLang === "en" && browserPrefersVietnamese()) {
-      location.replace("/vi/" + location.hash);
-      return true;
-    }
-
-    return false;
+    const target = preferred === "vi" ? "/vi/" : "/";
+    location.replace(target + location.hash);
+    return true;
   };
 
   /** Root-absolute asset paths so `/` and `/vi/` share the same files. */
@@ -75,7 +58,6 @@ window.SiteI18n = (() => {
     SITE_ORIGIN,
     getPreferredLang,
     setPreferredLang,
-    browserPrefersVietnamese,
     maybeSuggestLanguageRedirect,
     assetUrl,
     pageUrl,
