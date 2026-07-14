@@ -1,12 +1,14 @@
-# Vietnamese translation audit (pending your approval)
+# Vietnamese translation audit
 
-**Status:** PROPOSED — not finalized until you approve.
+**Status:** REVISED — language-polished copy is finalized in `js/content-vi.js`.
 
 **Process:** Pass 1 (natural Vietnamese) → Pass 2 (line-by-line accuracy check against English).
 
 **Convention:** English is the source of truth (`js/content-en.js`). Vietnamese lives in `js/content-vi.js`.
 
-For each entry: **EN** = English source · **VI** = proposed Vietnamese · **Notes** = flags / rationale.
+The detailed side-by-side entries below document the original review pass; the current polished wording is maintained in `js/content-vi.js`.
+
+For each entry: **EN** = English source · **VI** = Vietnamese copy · **Notes** = flags / rationale.
 
 ---
 
@@ -276,18 +278,16 @@ Official award/program names kept in English; connecting words localized lightly
 
 ---
 
-## Terms flagged for your review (do not guess further)
+## Previously flagged terms — resolved
 
-1. **triangulation** — kept in English in R6; prefer a Vietnamese gloss?
-2. **Panelist** — now “Thành viên panel” (was “Diễn giả panel”); OK?
-3. **lottery-draft** — proposed “xổ số nhập ngũ”; OK?
-4. **NSF REU fellow** — “nghiên cứu viên trong chương trình NSF REU” + parenthetical gloss; OK?
-5. **concentration in International Study** — “chuyên hướng International Study”; OK?
-6. **Recognition lines** — left in English as official titles; add glosses selectively?
-7. **Finalist** — retained in English within official program phrasing.
-8. **Tiến sĩ** for “Dr.” — confirmed spelling; abbreviation would be **TS.** if you prefer shorter form.
-6. **Recognition lines** — left in English as official titles; add glosses selectively?
-7. **Finalist** in leadership/recognition titles — retained in English within official program phrasing.
+1. **triangulation** — now “phép tam giác hóa (triangulation)”.
+2. **Panelist** — now “Thành viên tọa đàm”.
+3. **lottery-draft** — now “hình thức bốc thăm nhập ngũ”.
+4. **NSF REU fellow** — now “nghiên cứu viên của chương trình NSF REU” with a Vietnamese gloss.
+5. **concentration in International Study** — now “với định hướng International Study”.
+6. **Recognition lines** — official award and program names remain in English to avoid inventing unofficial translations.
+7. **Finalist** — now “Vào vòng chung kết chương trình”.
+8. **Tiến sĩ** for “Dr.” — retained as the standard Vietnamese academic title.
 
 ---
 
@@ -299,4 +299,4 @@ Official award/program names kept in English; connecting words localized lightly
 - [x] External links unchanged; English PDFs labeled “(tiếng Anh)”
 - [x] Preferred technical glossary applied consistently
 - [x] Mathematical paper titles left in English
-- [ ] **Awaiting your approval of wording before treating Vietnamese as final**
+- [x] **Vietnamese wording reviewed and polished**
