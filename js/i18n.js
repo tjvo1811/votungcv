@@ -1,5 +1,5 @@
 /**
- * Language preference + soft browser suggestion.
+ * Language preference + automatic browser-language detection.
  * Manual selection always wins and is persisted.
  */
 window.SiteI18n = (() => {
@@ -27,12 +27,12 @@ window.SiteI18n = (() => {
     const languages = navigator.languages?.length
       ? navigator.languages
       : [navigator.language || navigator.userLanguage];
-    return languages.some((code) => String(code).toLowerCase().startsWith("vi"));
+    return languages.some((code) => /^vi(?:-|$)/i.test(String(code || "")));
   };
 
   /**
-   * Soft suggestion: only when the visitor has never chosen a language.
-   * Never re-overrides a stored manual preference.
+   * Automatically route first-time root visitors to Vietnamese when their
+   * browser prefers Vietnamese. Explicit language choices always win.
    */
   const maybeSuggestLanguageRedirect = (currentLang) => {
     const preferred = getPreferredLang();
@@ -46,7 +46,6 @@ window.SiteI18n = (() => {
     }
 
     if (currentLang === "en" && browserPrefersVietnamese()) {
-      setPreferredLang("vi");
       location.replace("/vi/" + location.hash);
       return true;
     }
