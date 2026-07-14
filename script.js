@@ -1,16 +1,47 @@
-const views = [...document.querySelectorAll(".view")];
-const homeItems = [...document.querySelectorAll('[data-view="home"]')];
-const validViews = new Set(views.map((view) => view.id));
+(() => {
+  const boot = window.SITE_BOOT || { lang: "en" };
+  const content =
+    boot.lang === "vi" ? window.SITE_CONTENT_VI : window.SITE_CONTENT_EN;
 
-const renderView = () => {
-  const requested = location.hash.slice(1);
-  const activeView = validViews.has(requested) ? requested : null;
+  if (!content) {
+    console.error("Missing locale content for", boot.lang);
+    return;
+  }
 
-  homeItems.forEach((item) => { item.hidden = Boolean(activeView); });
-  views.forEach((view) => { view.hidden = view.id !== activeView; });
-  document.title = activeView ? `${activeView[0].toUpperCase()}${activeView.slice(1)} · Tung (TJ) Vo` : "Tung (TJ) Vo";
-  window.scrollTo(0, 0);
-};
+  if (window.SiteI18n.maybeSuggestLanguageRedirect(boot.lang)) {
+    return;
+  }
 
-addEventListener("hashchange", renderView);
-renderView();
+  const mount = document.querySelector("[data-app]");
+  if (!mount) return;
+
+  window.SiteRender.renderPage({ content, mount });
+
+  const views = [...mount.querySelectorAll(".view")];
+  const homeItems = [...mount.querySelectorAll('[data-view="home"]')];
+  const validViews = new Set(views.map((view) => view.id));
+
+  const renderView = () => {
+    const requested = location.hash.slice(1);
+    const activeView = validViews.has(requested) ? requested : null;
+
+    homeItems.forEach((item) => {
+      item.hidden = Boolean(activeView);
+    });
+    views.forEach((view) => {
+      view.hidden = view.id !== activeView;
+    });
+
+    if (activeView) {
+      const sectionLabel = content.sections[activeView] || activeView;
+      document.title = content.meta.titleSection.replace("{section}", sectionLabel);
+    } else {
+      document.title = content.meta.titleHome;
+    }
+
+    window.scrollTo(0, 0);
+  };
+
+  addEventListener("hashchange", renderView);
+  renderView();
+})();

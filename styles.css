@@ -13,7 +13,8 @@ body {
   min-width: 320px;
   background: var(--paper);
   color: var(--ink);
-  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  /* Noto Sans Mono covers Vietnamese diacritics JetBrains Mono may miss */
+  font-family: "JetBrains Mono", "Noto Sans Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.45;
@@ -22,10 +23,39 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+html[lang="vi"] body {
+  word-spacing: normal;
+  letter-spacing: -0.01em;
+  line-height: 1.5;
+}
+
 .page {
   width: min(100% - 48px, 804px);
   margin: 0 auto;
   padding: 32px 0 64px;
+}
+
+.lang-switch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 7px;
+  margin: 0 0 18px;
+  color: var(--quiet);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.lang-switch a.is-active {
+  color: var(--ink);
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.page:has(.intro:not([hidden])) > .lang-switch {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3, p { margin: 0; }
@@ -148,8 +178,11 @@ footer { margin-top: 56px; color: var(--quiet); font-size: 12px; }
 
 @media (max-width: 560px) {
   body { font-size: 13px; line-height: 1.4; }
+  html[lang="vi"] body { line-height: 1.48; }
   .page { width: min(100% - 36px, 804px); padding-top: 28px; }
   .breadcrumb { font-size: inherit; }
   .plain-list span { display: block; margin-bottom: 3px; }
-  .page:has(.intro:not([hidden])) > .intro, .page:has(.intro:not([hidden])) > nav { width: 100%; }
+  .page:has(.intro:not([hidden])) > .intro,
+  .page:has(.intro:not([hidden])) > nav,
+  .page:has(.intro:not([hidden])) > .lang-switch { width: 100%; }
 }
