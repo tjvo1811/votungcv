@@ -54,7 +54,7 @@ window.SITE_CONTENT_VI = {
       },
       {
         type: "html",
-        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noreferrer">University of St. Thomas</a> về competitive zero forcing. Mùa hè này, tôi là nghiên cứu viên của chương trình NSF REU (chương trình nghiên cứu hè dành cho sinh viên đại học do Quỹ Khoa học Quốc gia Hoa Kỳ tài trợ) tại <a href="https://www.uprp.edu/" target="_blank" rel="noreferrer">University of Puerto Rico at Ponce</a>, cùng Tiến sĩ Pamela Harris và Tiến sĩ Fernando Piñero nghiên cứu về xếp hạng Fubini, hàm đỗ xe và hoán vị Cayley. Bản thảo chúng tôi đang hoàn thiện mô tả đặc trưng và đếm các phần giao của những họ đối tượng này thông qua hành vi của các phần tử tăng yếu.',
+        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noreferrer">University of St. Thomas</a> về competitive zero forcing. Mùa hè này, tôi là nghiên cứu viên của chương trình NSF REU tại <a href="https://www.uprp.edu/" target="_blank" rel="noreferrer">University of Puerto Rico at Ponce</a>, nghiên cứu về tổ hợp.',
       },
       {
         type: "text",

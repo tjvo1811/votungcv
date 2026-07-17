@@ -52,7 +52,7 @@ window.SITE_CONTENT_EN = {
       },
       {
         type: "html",
-        html: 'This fall, I will continue working with Dr. Mary Flagg at the <a href="https://stthom.edu/" target="_blank" rel="noreferrer">University of St. Thomas</a> on competitive zero forcing. This summer, I am an NSF REU fellow at the <a href="https://www.uprp.edu/" target="_blank" rel="noreferrer">University of Puerto Rico at Ponce</a>, studying Fubini rankings, parking functions, and Cayley permutations with Dr. Pamela Harris and Dr. Fernando Piñero. Our working draft characterizes and enumerates intersections among these families through the behavior of their weakly increasing elements.',
+        html: 'This fall, I will continue working with Dr. Mary Flagg at the <a href="https://stthom.edu/" target="_blank" rel="noreferrer">University of St. Thomas</a> on competitive zero forcing. This summer, I am an NSF REU fellow at the <a href="https://www.uprp.edu/" target="_blank" rel="noreferrer">University of Puerto Rico at Ponce</a>, studying combinatorics.',
       },
       {
         type: "text",
