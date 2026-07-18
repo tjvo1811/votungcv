@@ -195,13 +195,13 @@ Paper/talk titles stay in English (rule 8). Meta and actions localized.
 ## Leadership
 
 ### L1
-- **Title EN:** Community, Action, and Social Entrepreneurship Finalist
-- **Title VI:** Finalist, Community, Action, and Social Entrepreneurship
-- **Notes:** Official program phrase kept; “Finalist” retained as role word used in EN title.
-- **Meta EN:** Amideast Education Abroad Connect · Summer 2025
-- **Meta VI:** Amideast Education Abroad Connect · Mùa hè 2025
+- **Title EN:** Community and Social Entrepreneurship (CASE) Program Scholarship Recipient
+- **Title VI:** Nhận học bổng tham gia chương trình Community and Social Entrepreneurship (CASE)
+- **Notes:** Updated to the selection language used by the City Lifestyle profile, which names Tung and the Amideast Education Abroad Scholarship.
+- **Meta EN:** Amideast Education Abroad · Summer 2025
+- **Meta VI:** Amideast Education Abroad · Mùa hè 2025
 - **Bullet EN:** Selected for an 8-day guided program in Tunisia on civil society, civic engagement, and global justice through Tunisian and North African lenses.
-- **Bullet VI:** Được chọn tham gia chương trình hướng dẫn kéo dài 8 ngày tại Tunisia về xã hội dân sự, sự tham gia đời sống công dân và công lý toàn cầu dưới góc nhìn của Tunisia và Bắc Phi.
+- **Bullet VI:** Được chọn tham gia chương trình kéo dài 8 ngày có người hướng dẫn tại Tunisia, tập trung vào xã hội dân sự, hoạt động công dân và công lý toàn cầu qua lăng kính Tunisia và Bắc Phi.
 
 ### L2
 - **Title EN:** Campus Representative, Honors College Student Advisory Board
@@ -226,8 +226,8 @@ Paper/talk titles stay in English (rule 8). Meta and actions localized.
 - **Title VI:** System Liaison, Honors and International Education Emissary
 - **Meta EN:** Lone Star College · Fall 2024
 - **Meta VI:** Lone Star College · Mùa thu 2024
-- **Bullet EN:** Promoted The Honors College, Rice University Take Flight, National Model UN, and scholarships across the system.
-- **Bullet VI:** Quảng bá The Honors College, Rice University Take Flight, National Model UN và các học bổng trong toàn hệ thống.
+- **Bullet EN:** Promoted The Honors College, the Take Flight STEM Pathway, National Model UN, and scholarships across the system.
+- **Bullet VI:** Quảng bá The Honors College, chương trình Take Flight STEM Pathway, National Model UN và các học bổng trong toàn hệ thống.
 
 ### L5
 - **Title EN:** Global Leadership Program
@@ -255,24 +255,24 @@ Official award/program names kept in English; connecting words localized lightly
 
 | EN | VI | Notes |
 |---|---|---|
-| Dean’s List, University of St. Thomas · 2025–26 | Dean’s List, University of St. Thomas · 2025–26 | Official honor roll name kept. Optional gloss not added (unambiguous). |
-| Hispanic-Serving Institution STEM (Dunn) Endowed Scholarship · 2026 | Hispanic-Serving Institution STEM (Dunn) Endowed Scholarship · 2026 | Keep official title. |
-| Monaghan Excellence Scholarship · 2025–27 | Monaghan Excellence Scholarship · 2025–27 | |
-| Community, Action, and Social Entrepreneurship Finalist, Amideast Education Abroad Connect · 2025 | Finalist, Community, Action, and Social Entrepreneurship, Amideast Education Abroad Connect · 2025 | Same content; “Finalist” position mirrored for readability. |
+| Dean’s List, University of St. Thomas · Fall 2025 & Spring 2026 | Dean’s List, University of St. Thomas · Mùa thu 2025 & Mùa xuân 2026 | Exact semesters aligned with the CV. |
+| HSI STEM (Dunn) Endowed Scholarship, University of St. Thomas · 2026 | HSI STEM (Dunn) Endowed Scholarship, University of St. Thomas · 2026 | Official UST portal title used. |
+| Monaghan Excellence Scholarship, University of St. Thomas · 2025–27 | Monaghan Excellence Scholarship, University of St. Thomas · 2025–27 | Institution restored from the CV. |
+| Amideast Education Abroad Scholarship, Community and Social Entrepreneurship (CASE) Program · 2025 | Học bổng Amideast Education Abroad, chương trình Community and Social Entrepreneurship (CASE) · 2025 | Selection verified by the City Lifestyle profile. |
 | Distinguished Global Scholar Study Abroad Scholarship, Lone Star College · 2025 | Distinguished Global Scholar Study Abroad Scholarship, Lone Star College · 2025 | |
-| Distinguished Global Scholar Award, Lone Star College · 2024–25 | Distinguished Global Scholar Award, Lone Star College · 2024–25 | |
-| President’s List, Lone Star College · 2023–25 | President’s List, Lone Star College · 2023–25 | |
+| Distinguished Global Scholar Designation, Lone Star College · 2025 | Distinguished Global Scholar Designation, Lone Star College · 2025 | Uses Lone Star’s current official “designation” wording. |
+| President’s List (all semesters), Lone Star College · 2023–25 | President’s List (tất cả các học kỳ), Lone Star College · 2023–25 | “All semesters” restored from the CV. |
 | Global Scholar Award & Language Scholarship, Lone Star College · 2023–25 | Global Scholar Award & Language Scholarship, Lone Star College · 2023–25 | |
-| Best in Committee & Outstanding Delegation, National Model UN · 2024 | Best in Committee & Outstanding Delegation, National Model UN · 2024 | |
+| Outstanding Delegate in Committee (UNESCO) & Outstanding Delegation, National Model United Nations–New York · 2024 | Outstanding Delegate in Committee (UNESCO) & Outstanding Delegation, National Model United Nations–New York · 2024 | Official NMUN category and committee; person-specific profile names Tung. |
 | 6× Tournament Champion, Speech & Debate, Jersey Village High School | 6× Tournament Champion, Speech & Debate, Jersey Village High School | |
-| 2× Texas Forensic Association State Qualifier; TFA Quarterfinalist | 2× Texas Forensic Association State Qualifier; TFA Quarterfinalist | |
-| National Individual Events Tournament of Champions Qualifier · Speech & Debate | National Individual Events Tournament of Champions Qualifier · Speech & Debate | |
+| 2× Texas Forensic Association State Qualifier; 2023 Oral Interpretation Quarterfinalist | 2× Texas Forensic Association State Qualifier; vào tứ kết Oral Interpretation năm 2023 | Exact 2023 event and result added. |
+| 2023 National Individual Events Tournament of Champions Qualifier, Program Oral Interpretation | Vòng loại National Individual Events Tournament of Champions năm 2023, nội dung Program Oral Interpretation | Exact public roster event added. |
 | National Speech & Debate Association Academic All-American · 2022 | National Speech & Debate Association Academic All-American · 2022 | |
-| Rice University Take Flight Program · 2024–25 | Rice University Take Flight Program · 2024–25 | |
-| Phi Theta Kappa Honor Society · 2023 | Phi Theta Kappa Honor Society · 2023 | |
-| Environmental Data Science Academy Micro-Credential, Rice Glasscock School · 2025 | Environmental Data Science Academy Micro-Credential, Rice Glasscock School · 2025 | |
-| Google Data Analytics: Foundations; Ask Questions to Make Data-Driven Decisions; Prepare Data for Exploration · Coursera · 2024 | Google Data Analytics: Foundations; Ask Questions to Make Data-Driven Decisions; Prepare Data for Exploration · Coursera · 2024 | Course titles unchanged. |
-| OSHA 10 · 2020 | OSHA 10 · 2020 | |
+| Take Flight STEM Pathway, Rice University · 2024–25 | Take Flight STEM Pathway, Rice University · 2024–25 | Period-correct official program name. |
+| Member, Phi Theta Kappa Honor Society · 2023 | Thành viên Phi Theta Kappa Honor Society · 2023 | Membership status made explicit. |
+| Micro-Credential in Environmental Data Science, Rice Environmental Data Academy (REDA) · 2025 | Micro-Credential in Environmental Data Science, Rice Environmental Data Academy (REDA) · 2025 | Separates the credential from the official program name. |
+| Google Data Analytics coursework (Google via Coursera): Foundations: Data, Data, Everywhere; Ask Questions to Make Data-Driven Decisions; Prepare Data for Exploration · 2024 | Các khóa học Google Data Analytics (Google qua Coursera): Foundations: Data, Data, Everywhere; Ask Questions to Make Data-Driven Decisions; Prepare Data for Exploration · 2024 | Exact course titles; does not imply completion of the full Professional Certificate. |
+| OSHA 10-Hour Outreach Training · 2020 | Đào tạo OSHA Outreach 10 giờ · 2020 | Uses OSHA’s training terminology rather than implying a certification. |
 
 **Recognition section note:** These lines are largely proper nouns. Leaving them in English avoids inventing inaccurate Vietnamese award names. If you want short glosses (e.g. “Dean’s List (danh sách khen thưởng học tập của khoa)”), say which rows to gloss.
 
@@ -286,7 +286,7 @@ Official award/program names kept in English; connecting words localized lightly
 4. **NSF REU fellow** — now “nghiên cứu viên của chương trình NSF REU” with a Vietnamese gloss.
 5. **concentration in International Study** — now “với định hướng International Study”.
 6. **Recognition lines** — official award and program names remain in English to avoid inventing unofficial translations.
-7. **Finalist** — now “Vào vòng chung kết chương trình”.
+7. **CASE status** — now described as a scholarship selection, matching the person-specific City Lifestyle profile.
 8. **Tiến sĩ** for “Dr.” — retained as the standard Vietnamese academic title.
 
 ---

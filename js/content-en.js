@@ -169,8 +169,8 @@ window.SITE_CONTENT_EN = {
   ],
   leadership: [
     {
-      title: "Community, Action, and Social Entrepreneurship Finalist",
-      meta: "Amideast Education Abroad Connect · Summer 2025",
+      title: "Community and Social Entrepreneurship (CASE) Program Scholarship Recipient",
+      meta: "Amideast Education Abroad · Summer 2025",
       points: [
         "Selected for an 8-day guided program in Tunisia on civil society, civic engagement, and global justice through Tunisian and North African lenses.",
       ],
@@ -193,7 +193,7 @@ window.SITE_CONTENT_EN = {
       title: "System Liaison, Honors and International Education Emissary",
       meta: "Lone Star College · Fall 2024",
       points: [
-        "Promoted The Honors College, Rice University Take Flight, National Model UN, and scholarships across the system.",
+        "Promoted The Honors College, the Take Flight STEM Pathway, National Model UN, and scholarships across the system.",
       ],
     },
     {
@@ -212,23 +212,89 @@ window.SITE_CONTENT_EN = {
     },
   ],
   recognition: [
-    "Dean’s List, University of St. Thomas · 2025–26",
-    "Hispanic-Serving Institution STEM (Dunn) Endowed Scholarship · 2026",
-    "Monaghan Excellence Scholarship · 2025–27",
-    "Community, Action, and Social Entrepreneurship Finalist, Amideast Education Abroad Connect · 2025",
-    "Distinguished Global Scholar Study Abroad Scholarship, Lone Star College · 2025",
-    "Distinguished Global Scholar Award, Lone Star College · 2024–25",
-    "President’s List, Lone Star College · 2023–25",
-    "Global Scholar Award & Language Scholarship, Lone Star College · 2023–25",
-    "Best in Committee & Outstanding Delegation, National Model UN · 2024",
-    "6× Tournament Champion, Speech & Debate, Jersey Village High School",
-    "2× Texas Forensic Association State Qualifier; TFA Quarterfinalist",
-    "National Individual Events Tournament of Champions Qualifier · Speech & Debate",
-    "National Speech & Debate Association Academic All-American · 2022",
-    "Rice University Take Flight Program · 2024–25",
-    "Phi Theta Kappa Honor Society · 2023",
-    "Environmental Data Science Academy Micro-Credential, Rice Glasscock School · 2025",
-    "Google Data Analytics: Foundations; Ask Questions to Make Data-Driven Decisions; Prepare Data for Exploration · Coursera · 2024",
-    "OSHA 10 · 2020",
+    {
+      text: "Dean’s List, University of St. Thomas · Fall 2025 & Spring 2026",
+      href: "https://catalog.stthom.edu/academic-honors-a0209",
+    },
+    {
+      text: "HSI STEM (Dunn) Endowed Scholarship, University of St. Thomas · 2026",
+      href: "https://stthom.academicworks.com/opportunities/6258",
+    },
+    {
+      text: "Monaghan Excellence Scholarship, University of St. Thomas · 2025–27",
+      href: "https://catalog.stthom.edu/scholarships-ugrd",
+    },
+    {
+      text: "Amideast Education Abroad Scholarship, Community and Social Entrepreneurship (CASE) Program · 2025",
+      href: "https://citylifestyle.com/articles/falcon-internship-program",
+    },
+    {
+      text: "Distinguished Global Scholar Study Abroad Scholarship, Lone Star College · 2025",
+    },
+    {
+      text: "Distinguished Global Scholar Designation, Lone Star College · 2025",
+      href: "https://www.lonestar.edu/college-departments/honors/37121.htm",
+    },
+    {
+      text: "President’s List (all semesters), Lone Star College · 2023–25",
+    },
+    {
+      text: "Global Scholar Award & Language Scholarship, Lone Star College · 2023–25",
+      href: "https://www.lonestar.edu/multimedia/LSC%20Global%20Scholars.pdf",
+    },
+    {
+      text: "Outstanding Delegate in Committee (UNESCO) & Outstanding Delegation, National Model United Nations–New York · 2024",
+      href: "https://www.woodlandsonline.com/npps/story.cfm?nppage=78364",
+    },
+    {
+      text: "6× Tournament Champion, Speech & Debate, Jersey Village High School",
+    },
+    {
+      text: "2× Texas Forensic Association State Qualifier; 2023 Oral Interpretation Quarterfinalist",
+      href: "https://myneighborhoodnews.com/cy-park-hs-student-wins-state-title-at-texas-forensic-association-competition",
+    },
+    {
+      text: "2023 National Individual Events Tournament of Champions Qualifier, Program Oral Interpretation",
+      href: "https://www.speechwire.com/c-public-entries.php?tournid=14215&groupingid=12",
+    },
+    {
+      text: "National Speech & Debate Association Academic All-American · 2022",
+    },
+    {
+      text: "Take Flight STEM Pathway, Rice University · 2024–25",
+      href: "https://news.rice.edu/news/2024/take-flight-program-makes-four-year-stem-education-accessible-all-high-achieving-students",
+    },
+    {
+      text: "Member, Phi Theta Kappa Honor Society · 2023",
+      href: "https://www.ptk.org/why-join/faq/",
+    },
+    {
+      text: "Micro-Credential in Environmental Data Science, Rice Environmental Data Academy (REDA) · 2025",
+      href: "https://ral.rice.edu/spring-2025/community-college-students-participate-rice-data-science-program",
+    },
+    {
+      segments: [
+        "Google Data Analytics coursework (Google via Coursera): ",
+        {
+          text: "Foundations: Data, Data, Everywhere",
+          href: "https://www.coursera.org/learn/foundations-data",
+        },
+        "; ",
+        {
+          text: "Ask Questions to Make Data-Driven Decisions",
+          href: "https://www.coursera.org/learn/ask-questions-make-decisions",
+        },
+        "; ",
+        {
+          text: "Prepare Data for Exploration",
+          href: "https://www.coursera.org/learn/data-preparation",
+        },
+        " · 2024",
+      ],
+    },
+    {
+      text: "OSHA 10-Hour Outreach Training · 2020",
+      href: "https://www.osha.gov/training/outreach",
+    },
   ],
 };

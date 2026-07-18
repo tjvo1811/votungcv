@@ -85,8 +85,28 @@ window.SiteRender = (() => {
       })
       .join("");
 
+  const renderRecognitionLink = (text, href) =>
+    `<a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
+
+  const renderRecognitionItem = (item) => {
+    if (typeof item === "string") return escapeHtml(item);
+
+    if (Array.isArray(item.segments)) {
+      return item.segments
+        .map((segment) => {
+          if (typeof segment === "string") return escapeHtml(segment);
+          if (segment.href) return renderRecognitionLink(segment.text, segment.href);
+          return escapeHtml(segment.text);
+        })
+        .join("");
+    }
+
+    if (item.href) return renderRecognitionLink(item.text, item.href);
+    return escapeHtml(item.text);
+  };
+
   const renderRecognition = (content) =>
-    content.recognition.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+    content.recognition.map((item) => `<li>${renderRecognitionItem(item)}</li>`).join("");
 
   const renderLanguageSwitch = (content, currentLang) => {
     const hash = location.hash || "";
