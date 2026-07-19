@@ -30,7 +30,7 @@ window.SiteRender = (() => {
     if (paragraph.type === "links") {
       const resume = resolveAsset(null, paragraph.resumeHref);
       const cv = resolveAsset(null, paragraph.cvHref);
-      return `<p>${escapeHtml(paragraph.before)}<a href="${escapeHtml(resume)}" target="_blank">${escapeHtml(content.ui.resume)}</a>${escapeHtml(paragraph.mid)}<a href="${escapeHtml(cv)}" target="_blank">${escapeHtml(content.ui.cv)}</a>${escapeHtml(paragraph.after)}</p>`;
+      return `<p>${escapeHtml(paragraph.before)}<a href="${escapeHtml(resume)}" target="_blank" rel="noopener noreferrer">${escapeHtml(content.ui.resume)}</a>${escapeHtml(paragraph.mid)}<a href="${escapeHtml(cv)}" target="_blank" rel="noopener noreferrer">${escapeHtml(content.ui.cv)}</a>${escapeHtml(paragraph.after)}</p>`;
     }
     return "";
   };
@@ -39,7 +39,7 @@ window.SiteRender = (() => {
     if (!item.links?.length) return "";
     const parts = item.links.map((link) => {
       const href = resolveAsset(null, link.href);
-      return `<a href="${escapeHtml(href)}" target="_blank">${escapeHtml(linkLabel(content, link.labelKey))}</a>`;
+      return `<a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel(content, link.labelKey))}</a>`;
     });
     return `<li>${parts.join(" · ")}</li>`;
   };
@@ -66,7 +66,7 @@ window.SiteRender = (() => {
         return `<li>
           <p class="presentation-title">${escapeHtml(item.title)}</p>
           <p class="presentation-meta">${renderPresentationMeta(item)}</p>
-          <a class="presentation-action" href="${escapeHtml(href)}" target="_blank">${escapeHtml(linkLabel(content, item.action.labelKey))}</a>
+          <a class="presentation-action" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel(content, item.action.labelKey))}</a>
         </li>`;
       })
       .join("");

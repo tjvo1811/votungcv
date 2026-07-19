@@ -54,7 +54,7 @@ window.SITE_CONTENT_VI = {
       },
       {
         type: "html",
-        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noreferrer">University of St. Thomas</a> về competitive zero forcing. Mùa hè này, tôi là nghiên cứu viên của chương trình NSF REU tại <a href="https://www.uprp.edu/" target="_blank" rel="noreferrer">University of Puerto Rico at Ponce</a>, nghiên cứu về tổ hợp.',
+        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> về competitive zero forcing. Mùa hè này, tôi là nghiên cứu viên của chương trình NSF REU tại <a href="https://www.uprp.edu/" target="_blank" rel="noopener noreferrer">University of Puerto Rico at Ponce</a>, nghiên cứu về tổ hợp.',
       },
       {
         type: "text",
@@ -62,7 +62,7 @@ window.SITE_CONTENT_VI = {
       },
       {
         type: "html",
-        html: 'Bạn có thể kết nối với tôi trên <a href="https://www.linkedin.com/in/tung-vo-4728b7235" target="_blank" rel="noreferrer">LinkedIn</a> hoặc liên hệ với tôi qua <a href="mailto:vo.tung@stthom.edu">email</a>.',
+        html: 'Bạn có thể kết nối với tôi trên <a href="https://www.linkedin.com/in/tung-vo-4728b7235" target="_blank" rel="noopener noreferrer">LinkedIn</a> hoặc liên hệ với tôi qua <a href="mailto:vo.tung@stthom.edu">email</a>.',
       },
       {
         type: "links",

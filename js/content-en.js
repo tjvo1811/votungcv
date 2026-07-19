@@ -52,7 +52,7 @@ window.SITE_CONTENT_EN = {
       },
       {
         type: "html",
-        html: 'This fall, I will continue working with Dr. Mary Flagg at the <a href="https://stthom.edu/" target="_blank" rel="noreferrer">University of St. Thomas</a> on competitive zero forcing. This summer, I am an NSF REU fellow at the <a href="https://www.uprp.edu/" target="_blank" rel="noreferrer">University of Puerto Rico at Ponce</a>, studying combinatorics.',
+        html: 'This fall, I will continue working with Dr. Mary Flagg at the <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> on competitive zero forcing. This summer, I am an NSF REU fellow at the <a href="https://www.uprp.edu/" target="_blank" rel="noopener noreferrer">University of Puerto Rico at Ponce</a>, studying combinatorics.',
       },
       {
         type: "text",
@@ -60,7 +60,7 @@ window.SITE_CONTENT_EN = {
       },
       {
         type: "html",
-        html: 'You can find me on <a href="https://www.linkedin.com/in/tung-vo-4728b7235" target="_blank" rel="noreferrer">LinkedIn</a> or reach me by <a href="mailto:vo.tung@stthom.edu">email</a>.',
+        html: 'You can find me on <a href="https://www.linkedin.com/in/tung-vo-4728b7235" target="_blank" rel="noopener noreferrer">LinkedIn</a> or reach me by <a href="mailto:vo.tung@stthom.edu">email</a>.',
       },
       {
         type: "links",
