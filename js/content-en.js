@@ -26,13 +26,13 @@ window.SITE_CONTENT_EN = {
   nav: {
     research: "Research",
     presentations: "Presentations",
-    leadership: "Leadership",
+    leadership: "Outreach",
     recognition: "Recognition",
   },
   sections: {
     research: "Research",
     presentations: "Presentations",
-    leadership: "Leadership",
+    leadership: "Outreach",
     recognition: "Recognition",
   },
   ui: {

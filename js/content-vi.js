@@ -28,13 +28,13 @@ window.SITE_CONTENT_VI = {
   nav: {
     research: "Nghiên cứu",
     presentations: "Bài thuyết trình",
-    leadership: "Lãnh đạo",
+    leadership: "Hoạt động cộng đồng",
     recognition: "Thành tích",
   },
   sections: {
     research: "Nghiên cứu",
     presentations: "Bài thuyết trình",
-    leadership: "Lãnh đạo",
+    leadership: "Hoạt động cộng đồng",
     recognition: "Thành tích",
   },
   ui: {

@@ -25,7 +25,7 @@ For each entry: **EN** = English source · **VI** = Vietnamese copy · **Notes**
 | aria.language | Language | Ngôn ngữ | |
 | nav.research | Research | Nghiên cứu | |
 | nav.presentations | Presentations | Thuyết trình | Academic conference sense. |
-| nav.leadership | Leadership | Lãnh đạo | |
+| nav.leadership | Outreach | Hoạt động cộng đồng | Section label; internal key retained for URL compatibility. |
 | nav.recognition | Recognition | Ghi nhận | |
 | lang.en | English | English | Label stays English. |
 | lang.vi | Tiếng Việt | Tiếng Việt | |
@@ -192,7 +192,7 @@ Paper/talk titles stay in English (rule 8). Meta and actions localized.
 
 ---
 
-## Leadership
+## Outreach
 
 ### L1
 - **Title EN:** Community and Social Entrepreneurship (CASE) Program Scholarship Recipient
