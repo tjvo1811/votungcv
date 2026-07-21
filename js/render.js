@@ -108,6 +108,62 @@ window.SiteRender = (() => {
   const renderRecognition = (content) =>
     content.recognition.map((item) => `<li>${renderRecognitionItem(item)}</li>`).join("");
 
+  const renderGallery = (content) =>
+    content.gallery
+      .map((album) => {
+        const cover = album.photos[0];
+        const coverSrc = resolveAsset(null, cover.src);
+        const countLabel = album.photos.length === 1 ? content.ui.image : content.ui.images;
+        return `<li>
+          <a class="album-card" href="#album-${escapeHtml(album.id)}" aria-label="${escapeHtml(album.title)}">
+            <span class="album-cover">
+              <img src="${escapeHtml(coverSrc)}" alt="${escapeHtml(cover.alt)}" loading="lazy">
+            </span>
+            <span class="album-card-copy">
+              <strong>${escapeHtml(album.title)}</strong>
+              <span>${escapeHtml(album.meta)}</span>
+              <span>${album.photos.length} ${escapeHtml(countLabel)} <b aria-hidden="true">→</b></span>
+            </span>
+          </a>
+        </li>`;
+      })
+      .join("");
+
+  const renderAlbumPhotos = (album, content) =>
+    album.photos
+      .map((photo) => {
+        const src = resolveAsset(null, photo.src);
+        return `<figure class="gallery-photo">
+          <a href="${escapeHtml(src)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(content.ui.openImage)}: ${escapeHtml(photo.caption)}">
+            <img src="${escapeHtml(src)}" alt="${escapeHtml(photo.alt)}" loading="lazy">
+          </a>
+          <figcaption>${escapeHtml(photo.caption)}</figcaption>
+        </figure>`;
+      })
+      .join("");
+
+  const renderAlbumViews = (content) =>
+    content.gallery
+      .map(
+        (album) => `<section class="view album-view" id="album-${escapeHtml(album.id)}" data-title="${escapeHtml(album.title)}" aria-labelledby="album-${escapeHtml(album.id)}-heading" hidden>
+          <div class="breadcrumb album-breadcrumb">
+            <a href="#top">${escapeHtml(content.intro.name)}</a><span>&gt;</span>
+            <a href="#gallery">${escapeHtml(content.sections.gallery)}</a><span>&gt;</span>
+            <span>${escapeHtml(album.title)}</span>
+          </div>
+          <p class="album-kicker">${escapeHtml(album.meta)}</p>
+          <h2 id="album-${escapeHtml(album.id)}-heading">${escapeHtml(album.title)}</h2>
+          <p class="album-description">${escapeHtml(album.description)}</p>
+          <a class="related-activity" href="#${escapeHtml(album.relatedHash)}">
+            <span>${escapeHtml(content.ui.viewRelatedActivity)}</span>
+            <strong>${escapeHtml(album.relatedLabel)} <b aria-hidden="true">→</b></strong>
+          </a>
+          <div class="album-photo-grid${album.photos.length > 1 ? " is-photo-album" : ""}">${renderAlbumPhotos(album, content)}</div>
+          <a class="back-to-gallery" href="#gallery">← ${escapeHtml(content.ui.backToGallery)}</a>
+        </section>`,
+      )
+      .join("");
+
   const renderLanguageSwitch = (content, currentLang) => {
     const hash = location.hash || "";
     const enHref = window.SiteI18n.languageSwitchHref("en", hash);
@@ -160,7 +216,8 @@ window.SiteRender = (() => {
         <a href="#research">${escapeHtml(content.nav.research)}</a><span>·</span>
         <a href="#presentations">${escapeHtml(content.nav.presentations)}</a><span>·</span>
         <a href="#leadership">${escapeHtml(content.nav.leadership)}</a><span>·</span>
-        <a href="#recognition">${escapeHtml(content.nav.recognition)}</a>
+        <a href="#recognition">${escapeHtml(content.nav.recognition)}</a><span>·</span>
+        <a href="#gallery">${escapeHtml(content.nav.gallery)}</a>
       </nav>
 
       <section class="view" id="research" aria-labelledby="research-heading" hidden>
@@ -186,6 +243,15 @@ window.SiteRender = (() => {
         <h2 id="recognition-heading">${escapeHtml(content.sections.recognition)}</h2>
         <ul class="plain-list compact">${renderRecognition(content)}</ul>
       </section>
+
+      <section class="view" id="gallery" aria-labelledby="gallery-heading" hidden>
+        <div class="breadcrumb"><a href="#top">${escapeHtml(content.intro.name)}</a><span>&gt;</span><span>${escapeHtml(content.sections.gallery)}</span></div>
+        <h2 id="gallery-heading">${escapeHtml(content.sections.gallery)}</h2>
+        <p class="gallery-intro">${escapeHtml(content.galleryIntro)}</p>
+        <ul class="album-grid">${renderGallery(content)}</ul>
+      </section>
+
+      ${renderAlbumViews(content)}
     `;
 
     mount.querySelectorAll("[data-set-lang]").forEach((anchor) => {

@@ -28,12 +28,14 @@ window.SITE_CONTENT_EN = {
     presentations: "Presentations",
     leadership: "Outreach",
     recognition: "Recognition",
+    gallery: "Gallery",
   },
   sections: {
     research: "Research",
     presentations: "Presentations",
     leadership: "Outreach",
     recognition: "Recognition",
+    gallery: "Gallery",
   },
   ui: {
     resume: "resume",
@@ -42,6 +44,11 @@ window.SITE_CONTENT_EN = {
     viewConferencePoster: "View conference poster →",
     readPaper: "Read paper →",
     readRelatedPaper: "Read related paper →",
+    backToGallery: "Back to gallery",
+    viewRelatedActivity: "Related activity",
+    openImage: "Open full image",
+    image: "image",
+    images: "images",
   },
   intro: {
     name: "Tung (TJ) Vo",
@@ -226,7 +233,7 @@ window.SITE_CONTENT_EN = {
     },
     {
       text: "Amideast Education Abroad Scholarship, Community and Social Entrepreneurship (CASE) Program · 2025",
-      href: "https://citylifestyle.com/articles/falcon-internship-program",
+      href: "https://www.amideast.org/our-work/education-abroad-in-the-mena/abroad-programs/summer-programs/community-and-social-entrepreneurship",
     },
     {
       text: "Distinguished Global Scholar Study Abroad Scholarship, Lone Star College · 2025",
@@ -295,6 +302,209 @@ window.SITE_CONTENT_EN = {
     {
       text: "OSHA 10-Hour Outreach Training · 2020",
       href: "https://www.osha.gov/training/outreach",
+    },
+  ],
+  galleryIntro: "A visual archive of study abroad, conference, and community experiences.",
+  gallery: [
+    {
+      id: "distinguished-global-scholar-study-abroad",
+      title: "Distinguished Global Scholar Study Abroad — Ireland",
+      meta: "Lone Star College · Ireland · 2025",
+      description: "Moments from the Distinguished Global Scholar study abroad experience in Ireland.",
+      relatedHash: "recognition",
+      relatedLabel: "Distinguished Global Scholar Study Abroad Scholarship",
+      photos: [
+        {
+          src: "assets/gallery/distinguished-global-scholar/group-selfie.jpg",
+          alt: "Distinguished Global Scholars taking a group selfie outdoors",
+          caption: "Traveling through Ireland with fellow Distinguished Global Scholars.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/sunset-group.jpg",
+          alt: "Distinguished Global Scholars gathered together by the water at sunset",
+          caption: "The group together on the Irish coast at sunset.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/city-group.jpg",
+          alt: "Three Distinguished Global Scholars taking a photo while exploring the city",
+          caption: "Exploring Ireland with fellow scholars.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/travel-portrait.jpg",
+          alt: "Tung Vo posing outdoors during the study abroad trip",
+          caption: "A portrait from the study abroad experience in Ireland.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/library-portrait.jpg",
+          alt: "Tung Vo browsing books in a library",
+          caption: "Exploring a local library in Ireland.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/bookshop.jpg",
+          alt: "Shelves filled with books inside a bookshop",
+          caption: "A bookshop visit during the Ireland trip.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/evening-street.jpg",
+          alt: "A narrow street illuminated by warm orange light at dusk",
+          caption: "An evening view in Ireland.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/coastal-fair.jpg",
+          alt: "A Ferris wheel and fairground beside a coastal town",
+          caption: "A coastal view from Ireland.",
+        },
+      ],
+    },
+    {
+      id: "case-tunisia",
+      title: "Community and Social Entrepreneurship (CASE) — Tunisia",
+      meta: "Amideast Education Abroad · Tunis, Tunisia · Summer 2025",
+      description: "An eight-day program connecting students with local peers and civil society organizations through discussions, tours, and community engagement.",
+      relatedHash: "leadership",
+      relatedLabel: "Community and Social Entrepreneurship (CASE) Program",
+      photos: [
+        {
+          src: "assets/gallery/case-tunisia/evening-group.jpg",
+          alt: "CASE participants taking a group photo during an evening in Tunisia",
+          caption: "CASE participants together during an evening in Tunis.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/program-group.jpg",
+          alt: "CASE participants and local peers posing together during a program visit",
+          caption: "CASE participants and local peers during a program visit.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/cultural-workshop.jpg",
+          alt: "CASE participants taking part in a hands-on cultural workshop",
+          caption: "Taking part in a hands-on cultural workshop.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/medina-group.jpg",
+          alt: "CASE participants gathered in a Tunisian medina",
+          caption: "Exploring a medina with fellow CASE participants.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/group-portrait.jpg",
+          alt: "Six CASE participants posing together outdoors in Tunisia",
+          caption: "A group portrait during the Tunisia program.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/blue-door-portrait.jpg",
+          alt: "Tung Vo posing in front of a traditional blue door in Tunisia",
+          caption: "A portrait in front of a traditional blue door.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/street-mirror.jpg",
+          alt: "CASE participants reflected in a convex street mirror",
+          caption: "A group reflection while exploring Tunisia.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/sidi-bou-said-lane.jpg",
+          alt: "A white-and-blue lane with flowering bougainvillea in Sidi Bou Said",
+          caption: "A lane in Sidi Bou Said.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/evening-outing.jpg",
+          alt: "CASE participants talking outside a restaurant at night",
+          caption: "An evening outing with fellow participants.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/city-evening.jpg",
+          alt: "A tree-lined boulevard in Tunis at dusk",
+          caption: "Tunis at dusk.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/night-street.jpg",
+          alt: "A lively Tunis street with cafés and illuminated lamps at night",
+          caption: "An evening street scene in Tunis.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/skylight.jpg",
+          alt: "Sunlight and geometric shadows beneath a glass skylight",
+          caption: "Architecture and light during a program visit.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/bougainvillea.jpg",
+          alt: "Bright bougainvillea flowering beneath a blue Tunisian sky",
+          caption: "Bougainvillea in Tunisia.",
+        },
+      ],
+    },
+    {
+      id: "national-model-un-new-york",
+      title: "National Model United Nations–New York",
+      meta: "New York City · 2024",
+      description: "Competing at National Model UN–New York through UNESCO committee sessions, international collaboration, and connections with delegates from around the world.",
+      relatedHash: "recognition",
+      relatedLabel: "National Model UN awards and recognition",
+      photos: [
+        {
+          src: "assets/gallery/nmun-new-york/committee-group.jpg",
+          alt: "Delegates and staff gathered for a National Model UN UNESCO committee group photo",
+          caption: "The UNESCO committee at National Model United Nations–New York.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/committee-speech.jpg",
+          alt: "Tung Vo speaking at a microphone beside a fellow delegate during committee",
+          caption: "Speaking during a UNESCO committee session.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/heic-5774.jpg",
+          alt: "National Model UN delegates posing together with country and organization placards",
+          caption: "Delegates together after a committee session.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/delegate-group.jpg",
+          alt: "Tung Vo posing with fellow National Model UN delegates",
+          caption: "Connecting with fellow delegates during the conference.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/international-delegates.jpg",
+          alt: "Tung Vo with delegates from the Netherlands, Survival International, and Azerbaijan",
+          caption: "Meeting delegates representing countries and organizations from around the world.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/heic-8855.jpg",
+          alt: "Four National Model UN participants holding Philippines and Survival International placards",
+          caption: "A conference photo with fellow delegates.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/serbia-delegate.jpg",
+          alt: "Tung Vo posing with a delegate holding a Serbia placard",
+          caption: "Meeting Serbia's delegate at National Model UN–New York.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/committee-work-session.jpg",
+          alt: "Delegates gathered around a table during a National Model UN working session",
+          caption: "Collaborating during a committee working session.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/delegate-selfie.jpg",
+          alt: "National Model UN participants taking a group selfie",
+          caption: "A conference selfie with fellow delegates.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/times-square-selfie.jpg",
+          alt: "National Model UN participants taking a selfie in Times Square",
+          caption: "Exploring Times Square with fellow delegates.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/heic-8110.jpg",
+          alt: "Tung Vo and a fellow delegate taking a selfie at the Statue of Liberty",
+          caption: "Visiting the Statue of Liberty during the New York trip.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/new-york-public-library.jpg",
+          alt: "A historic red-brick New York Public Library building beneath a blue sky",
+          caption: "A New York Public Library branch.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/manhattan-street.jpg",
+          alt: "A Manhattan street lined with tall buildings and flags",
+          caption: "A view of Manhattan during the conference trip.",
+        },
+      ],
     },
   ],
 };

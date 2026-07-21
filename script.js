@@ -33,7 +33,8 @@
     });
 
     if (activeView) {
-      const sectionLabel = content.sections[activeView] || activeView;
+      const activeElement = views.find((view) => view.id === activeView);
+      const sectionLabel = activeElement?.dataset.title || content.sections[activeView] || activeView;
       document.title = content.meta.titleSection.replace("{section}", sectionLabel);
     } else {
       document.title = content.meta.titleHome;

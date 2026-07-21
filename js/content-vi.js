@@ -30,12 +30,14 @@ window.SITE_CONTENT_VI = {
     presentations: "Bài thuyết trình",
     leadership: "Hoạt động cộng đồng",
     recognition: "Thành tích",
+    gallery: "Thư viện ảnh",
   },
   sections: {
     research: "Nghiên cứu",
     presentations: "Bài thuyết trình",
     leadership: "Hoạt động cộng đồng",
     recognition: "Thành tích",
+    gallery: "Thư viện ảnh",
   },
   ui: {
     resume: "resume",
@@ -44,6 +46,11 @@ window.SITE_CONTENT_VI = {
     viewConferencePoster: "Xem poster hội nghị (bằng tiếng Anh) →",
     readPaper: "Đọc bài viết (bằng tiếng Anh) →",
     readRelatedPaper: "Đọc bài liên quan (bằng tiếng Anh) →",
+    backToGallery: "Quay lại thư viện ảnh",
+    viewRelatedActivity: "Hoạt động liên quan",
+    openImage: "Mở ảnh đầy đủ",
+    image: "ảnh",
+    images: "ảnh",
   },
   intro: {
     name: "Võ Sơn Tùng",
@@ -228,7 +235,7 @@ window.SITE_CONTENT_VI = {
     },
     {
       text: "Học bổng Amideast Education Abroad, chương trình Community and Social Entrepreneurship (CASE) · 2025",
-      href: "https://citylifestyle.com/articles/falcon-internship-program",
+      href: "https://www.amideast.org/our-work/education-abroad-in-the-mena/abroad-programs/summer-programs/community-and-social-entrepreneurship",
     },
     {
       text: "Distinguished Global Scholar Study Abroad Scholarship, Lone Star College · 2025",
@@ -297,6 +304,209 @@ window.SITE_CONTENT_VI = {
     {
       text: "Đào tạo OSHA Outreach 10 giờ · 2020",
       href: "https://www.osha.gov/training/outreach",
+    },
+  ],
+  galleryIntro: "Kho lưu trữ trực quan về trải nghiệm du học, hội nghị và hoạt động cộng đồng.",
+  gallery: [
+    {
+      id: "distinguished-global-scholar-study-abroad",
+      title: "Chuyến du học Distinguished Global Scholar — Ireland",
+      meta: "Lone Star College · Ireland · 2025",
+      description: "Những khoảnh khắc trong trải nghiệm du học Distinguished Global Scholar tại Ireland.",
+      relatedHash: "recognition",
+      relatedLabel: "Học bổng du học Distinguished Global Scholar",
+      photos: [
+        {
+          src: "assets/gallery/distinguished-global-scholar/group-selfie.jpg",
+          alt: "Các Distinguished Global Scholar chụp ảnh selfie nhóm ngoài trời",
+          caption: "Khám phá Ireland cùng các Distinguished Global Scholar.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/sunset-group.jpg",
+          alt: "Các Distinguished Global Scholar tụ họp bên bờ biển lúc hoàng hôn",
+          caption: "Cả nhóm bên bờ biển Ireland lúc hoàng hôn.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/city-group.jpg",
+          alt: "Ba Distinguished Global Scholar chụp ảnh khi khám phá thành phố",
+          caption: "Khám phá Ireland cùng các học giả khác.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/travel-portrait.jpg",
+          alt: "Võ Sơn Tùng chụp ảnh ngoài trời trong chuyến du học",
+          caption: "Một bức chân dung trong trải nghiệm du học tại Ireland.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/library-portrait.jpg",
+          alt: "Võ Sơn Tùng xem sách trong thư viện",
+          caption: "Khám phá một thư viện địa phương tại Ireland.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/bookshop.jpg",
+          alt: "Những kệ sách đầy ắp bên trong một hiệu sách",
+          caption: "Ghé thăm một hiệu sách trong chuyến đi Ireland.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/evening-street.jpg",
+          alt: "Một con phố hẹp được chiếu sáng bằng ánh cam ấm áp lúc chạng vạng",
+          caption: "Khung cảnh buổi tối tại Ireland.",
+        },
+        {
+          src: "assets/gallery/distinguished-global-scholar/coastal-fair.jpg",
+          alt: "Vòng đu quay và khu vui chơi bên một thị trấn ven biển",
+          caption: "Khung cảnh ven biển Ireland.",
+        },
+      ],
+    },
+    {
+      id: "case-tunisia",
+      title: "Community and Social Entrepreneurship (CASE) — Tunisia",
+      meta: "Amideast Education Abroad · Tunis, Tunisia · Mùa hè 2025",
+      description: "Chương trình kéo dài tám ngày kết nối sinh viên với các bạn đồng trang lứa và tổ chức xã hội dân sự địa phương qua thảo luận, tham quan và hoạt động cộng đồng.",
+      relatedHash: "leadership",
+      relatedLabel: "Chương trình Community and Social Entrepreneurship (CASE)",
+      photos: [
+        {
+          src: "assets/gallery/case-tunisia/evening-group.jpg",
+          alt: "Những người tham gia CASE chụp ảnh nhóm vào một buổi tối tại Tunisia",
+          caption: "Những người tham gia CASE bên nhau vào một buổi tối tại Tunis.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/program-group.jpg",
+          alt: "Những người tham gia CASE và các bạn địa phương chụp ảnh trong một chuyến thăm của chương trình",
+          caption: "Những người tham gia CASE và các bạn địa phương trong một chuyến thăm của chương trình.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/cultural-workshop.jpg",
+          alt: "Những người tham gia CASE trải nghiệm một hoạt động văn hóa thực hành",
+          caption: "Tham gia một hoạt động văn hóa thực hành.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/medina-group.jpg",
+          alt: "Những người tham gia CASE tụ họp trong một khu medina ở Tunisia",
+          caption: "Khám phá một khu medina cùng các thành viên CASE.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/group-portrait.jpg",
+          alt: "Sáu thành viên CASE chụp ảnh nhóm ngoài trời tại Tunisia",
+          caption: "Ảnh nhóm trong chương trình tại Tunisia.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/blue-door-portrait.jpg",
+          alt: "Võ Sơn Tùng chụp ảnh trước một cánh cửa xanh truyền thống tại Tunisia",
+          caption: "Chụp ảnh trước một cánh cửa xanh truyền thống.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/street-mirror.jpg",
+          alt: "Các thành viên CASE phản chiếu trong một gương cầu lồi trên phố",
+          caption: "Ảnh phản chiếu của cả nhóm khi khám phá Tunisia.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/sidi-bou-said-lane.jpg",
+          alt: "Con hẻm trắng xanh với hoa giấy tại Sidi Bou Said",
+          caption: "Một con hẻm tại Sidi Bou Said.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/evening-outing.jpg",
+          alt: "Các thành viên CASE trò chuyện bên ngoài một nhà hàng vào buổi tối",
+          caption: "Một buổi tối cùng các thành viên trong chương trình.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/city-evening.jpg",
+          alt: "Đại lộ rợp bóng cây tại Tunis lúc chạng vạng",
+          caption: "Tunis lúc chạng vạng.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/night-street.jpg",
+          alt: "Con phố sôi động với các quán cà phê và đèn đường tại Tunis vào ban đêm",
+          caption: "Khung cảnh đường phố Tunis vào buổi tối.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/skylight.jpg",
+          alt: "Ánh nắng và bóng hình học dưới mái kính",
+          caption: "Kiến trúc và ánh sáng trong một chuyến thăm của chương trình.",
+        },
+        {
+          src: "assets/gallery/case-tunisia/bougainvillea.jpg",
+          alt: "Hoa giấy rực rỡ dưới bầu trời xanh Tunisia",
+          caption: "Hoa giấy tại Tunisia.",
+        },
+      ],
+    },
+    {
+      id: "national-model-un-new-york",
+      title: "National Model United Nations–New York",
+      meta: "Thành phố New York · 2024",
+      description: "Tranh tài tại National Model UN–New York qua các phiên họp ủy ban UNESCO, hợp tác quốc tế và kết nối với đại biểu từ khắp nơi trên thế giới.",
+      relatedHash: "recognition",
+      relatedLabel: "Giải thưởng và ghi nhận tại National Model UN",
+      photos: [
+        {
+          src: "assets/gallery/nmun-new-york/committee-group.jpg",
+          alt: "Các đại biểu và ban tổ chức chụp ảnh nhóm của ủy ban UNESCO tại National Model UN",
+          caption: "Ủy ban UNESCO tại National Model United Nations–New York.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/committee-speech.jpg",
+          alt: "Võ Sơn Tùng phát biểu trước micro bên cạnh một đại biểu trong phiên họp",
+          caption: "Phát biểu trong một phiên họp của ủy ban UNESCO.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/heic-5774.jpg",
+          alt: "Các đại biểu National Model UN chụp ảnh cùng bảng tên quốc gia và tổ chức",
+          caption: "Các đại biểu bên nhau sau một phiên họp ủy ban.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/delegate-group.jpg",
+          alt: "Võ Sơn Tùng chụp ảnh cùng các đại biểu National Model UN",
+          caption: "Kết nối với các đại biểu khác trong hội nghị.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/international-delegates.jpg",
+          alt: "Võ Sơn Tùng cùng các đại biểu Hà Lan, Survival International và Azerbaijan",
+          caption: "Gặp gỡ các đại biểu đại diện cho nhiều quốc gia và tổ chức trên thế giới.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/heic-8855.jpg",
+          alt: "Bốn thành viên National Model UN cầm bảng Philippines và Survival International",
+          caption: "Chụp ảnh cùng các đại biểu tại hội nghị.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/serbia-delegate.jpg",
+          alt: "Võ Sơn Tùng chụp ảnh cùng một đại biểu cầm bảng Serbia",
+          caption: "Gặp gỡ đại biểu Serbia tại National Model UN–New York.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/committee-work-session.jpg",
+          alt: "Các đại biểu tụ họp quanh bàn trong một phiên làm việc tại National Model UN",
+          caption: "Hợp tác trong một phiên làm việc của ủy ban.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/delegate-selfie.jpg",
+          alt: "Các thành viên National Model UN chụp ảnh selfie nhóm",
+          caption: "Ảnh selfie tại hội nghị cùng các đại biểu.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/times-square-selfie.jpg",
+          alt: "Các thành viên National Model UN chụp ảnh selfie tại Times Square",
+          caption: "Khám phá Times Square cùng các đại biểu.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/heic-8110.jpg",
+          alt: "Võ Sơn Tùng và một đại biểu chụp ảnh selfie tại Tượng Nữ thần Tự do",
+          caption: "Tham quan Tượng Nữ thần Tự do trong chuyến đi New York.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/new-york-public-library.jpg",
+          alt: "Tòa nhà gạch đỏ lịch sử của Thư viện Công cộng New York dưới bầu trời xanh",
+          caption: "Một chi nhánh của Thư viện Công cộng New York.",
+        },
+        {
+          src: "assets/gallery/nmun-new-york/manhattan-street.jpg",
+          alt: "Một con phố Manhattan với các tòa nhà cao tầng và cờ",
+          caption: "Khung cảnh Manhattan trong chuyến đi hội nghị.",
+        },
+      ],
     },
   ],
 };
