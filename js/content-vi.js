@@ -45,6 +45,7 @@ window.SITE_CONTENT_VI = {
     resume: "resume",
     cv: "CV",
     viewPoster: "Xem poster (bằng tiếng Anh) →",
+    viewSlides: "Xem slide (bằng tiếng Anh) →",
     viewConferencePoster: "Xem poster hội nghị (bằng tiếng Anh) →",
     readPaper: "Đọc bài viết (bằng tiếng Anh) →",
     readRelatedPaper: "Đọc bài liên quan (bằng tiếng Anh) →",
@@ -109,6 +110,7 @@ window.SITE_CONTENT_VI = {
         "Chứng minh các kết quả về phép đếm và cấu trúc, đồng thời mô tả đặc trưng các phần giao của những họ đối tượng tổ hợp.",
         "Cùng các đồng tác giả xây dựng một bản thảo bài báo, với sự hỗ trợ của các phép đếm được thực hiện bằng Python.",
       ],
+      links: [{ href: "assets/research/YMC2026_Inversion_Preserving_Bijection_Slides.pdf", labelKey: "viewSlides" }],
     },
     {
       title: "Chiến thuật tuyển quân và đào ngũ trong Chiến tranh Việt Nam",

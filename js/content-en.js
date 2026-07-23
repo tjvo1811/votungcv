@@ -43,6 +43,7 @@ window.SITE_CONTENT_EN = {
     resume: "resume",
     cv: "CV",
     viewPoster: "View poster →",
+    viewSlides: "View slides →",
     viewConferencePoster: "View conference poster →",
     readPaper: "Read paper →",
     readRelatedPaper: "Read related paper →",
@@ -107,6 +108,7 @@ window.SITE_CONTENT_EN = {
         "Proved enumerative and structural results and characterized intersections among combinatorial families.",
         "Co-authored an article draft supported by Python enumeration.",
       ],
+      links: [{ href: "assets/research/YMC2026_Inversion_Preserving_Bijection_Slides.pdf", labelKey: "viewSlides" }],
     },
     {
       title: "Recruitment tactics and desertion during the Vietnam War",
