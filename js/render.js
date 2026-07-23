@@ -73,12 +73,21 @@ window.SiteRender = (() => {
       })
       .join("");
 
+  const renderPublicationAuthors = (item) => {
+    const author = item.highlightAuthor;
+    const authors = String(item.authors);
+    const index = author ? authors.indexOf(author) : -1;
+    if (index === -1) return escapeHtml(authors);
+
+    return `${escapeHtml(authors.slice(0, index))}<span class="publication-author-self">${escapeHtml(author)}</span>${escapeHtml(authors.slice(index + author.length))}`;
+  };
+
   const renderPublications = (content) =>
     content.publications
       .map(
         (item) => `<li>
           <p class="publication-title">${escapeHtml(item.title)}</p>
-          <p class="publication-authors">${escapeHtml(item.authors)}</p>
+          <p class="publication-authors">${renderPublicationAuthors(item)}</p>
           <p class="publication-meta">${escapeHtml(item.meta)}</p>
         </li>`,
       )

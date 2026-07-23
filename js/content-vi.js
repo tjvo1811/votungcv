@@ -147,6 +147,7 @@ window.SITE_CONTENT_VI = {
     {
       title: "Intersections of Cayley Permutations, Fubini Rankings, and Unit Interval Parking Functions",
       authors: "Eban Barrett, Melissa Beerbower, Jennifer Elder, Pamela E. Harris, Maritza Sanchez, Tung Vo và Cyrus Young",
+      highlightAuthor: "Tung Vo",
       meta: "Bài báo nghiên cứu · Đang chuẩn bị · 2026",
     },
   ],
