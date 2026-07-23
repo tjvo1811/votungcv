@@ -62,26 +62,26 @@ window.SiteRender = (() => {
   const renderPresentations = (content) =>
     content.presentations
       .map((item) => {
-        const href = resolveAsset(null, item.action.href);
+        const action = item.action
+          ? `<a class="presentation-action" href="${escapeHtml(resolveAsset(null, item.action.href))}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel(content, item.action.labelKey))}</a>`
+          : "";
         return `<li>
           <p class="presentation-title">${escapeHtml(item.title)}</p>
           <p class="presentation-meta">${renderPresentationMeta(item)}</p>
-          <a class="presentation-action" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel(content, item.action.labelKey))}</a>
+          ${action}
         </li>`;
       })
       .join("");
 
   const renderPublications = (content) =>
     content.publications
-      .map((item) => {
-        const href = resolveAsset(null, item.action.href);
-        return `<li>
+      .map(
+        (item) => `<li>
           <p class="publication-title">${escapeHtml(item.title)}</p>
           <p class="publication-authors">${escapeHtml(item.authors)}</p>
           <p class="publication-meta">${escapeHtml(item.meta)}</p>
-          <a class="publication-action" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel(content, item.action.labelKey))}</a>
-        </li>`;
-      })
+        </li>`,
+      )
       .join("");
 
   const renderLeadership = (content) =>
