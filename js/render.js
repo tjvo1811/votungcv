@@ -71,6 +71,19 @@ window.SiteRender = (() => {
       })
       .join("");
 
+  const renderPublications = (content) =>
+    content.publications
+      .map((item) => {
+        const href = resolveAsset(null, item.action.href);
+        return `<li>
+          <p class="publication-title">${escapeHtml(item.title)}</p>
+          <p class="publication-authors">${escapeHtml(item.authors)}</p>
+          <p class="publication-meta">${escapeHtml(item.meta)}</p>
+          <a class="publication-action" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(linkLabel(content, item.action.labelKey))}</a>
+        </li>`;
+      })
+      .join("");
+
   const renderLeadership = (content) =>
     content.leadership
       .map((item) => {
@@ -215,6 +228,7 @@ window.SiteRender = (() => {
       <nav aria-label="${escapeHtml(content.aria.siteSections)}" data-view="home">
         <a href="#research">${escapeHtml(content.nav.research)}</a><span>·</span>
         <a href="#presentations">${escapeHtml(content.nav.presentations)}</a><span>·</span>
+        <a href="#publications">${escapeHtml(content.nav.publications)}</a><span>·</span>
         <a href="#leadership">${escapeHtml(content.nav.leadership)}</a><span>·</span>
         <a href="#recognition">${escapeHtml(content.nav.recognition)}</a><span>·</span>
         <a href="#gallery">${escapeHtml(content.nav.gallery)}</a>
@@ -230,6 +244,12 @@ window.SiteRender = (() => {
         <div class="breadcrumb"><a href="#top">${escapeHtml(content.intro.name)}</a><span>&gt;</span><span>${escapeHtml(content.sections.presentations)}</span></div>
         <h2 id="presentations-heading">${escapeHtml(content.sections.presentations)}</h2>
         <ul class="plain-list presentation-list">${renderPresentations(content)}</ul>
+      </section>
+
+      <section class="view" id="publications" aria-labelledby="publications-heading" hidden>
+        <div class="breadcrumb"><a href="#top">${escapeHtml(content.intro.name)}</a><span>&gt;</span><span>${escapeHtml(content.sections.publications)}</span></div>
+        <h2 id="publications-heading">${escapeHtml(content.sections.publications)}</h2>
+        <ul class="plain-list publication-list">${renderPublications(content)}</ul>
       </section>
 
       <section class="view" id="leadership" aria-labelledby="leadership-heading" hidden>

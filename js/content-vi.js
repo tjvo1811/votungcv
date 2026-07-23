@@ -27,6 +27,7 @@ window.SITE_CONTENT_VI = {
   },
   nav: {
     research: "Nghiên cứu",
+    publications: "Công bố khoa học",
     presentations: "Bài thuyết trình",
     leadership: "Hoạt động cộng đồng",
     recognition: "Thành tích",
@@ -34,6 +35,7 @@ window.SITE_CONTENT_VI = {
   },
   sections: {
     research: "Nghiên cứu",
+    publications: "Công bố khoa học",
     presentations: "Bài thuyết trình",
     leadership: "Hoạt động cộng đồng",
     recognition: "Thành tích",
@@ -43,8 +45,10 @@ window.SITE_CONTENT_VI = {
     resume: "resume",
     cv: "CV",
     viewPoster: "Xem poster (bằng tiếng Anh) →",
+    viewSlides: "Xem slide (bằng tiếng Anh) →",
     viewConferencePoster: "Xem poster hội nghị (bằng tiếng Anh) →",
     readPaper: "Đọc bài viết (bằng tiếng Anh) →",
+    readManuscript: "Đọc bản thảo đang thực hiện (bằng tiếng Anh) →",
     readRelatedPaper: "Đọc bài liên quan (bằng tiếng Anh) →",
     backToGallery: "Quay lại thư viện ảnh",
     viewRelatedActivity: "Hoạt động liên quan",
@@ -139,7 +143,21 @@ window.SITE_CONTENT_VI = {
       links: [{ href: "assets/research/NMUN_Research.pdf", labelKey: "readPaper" }],
     },
   ],
+  publications: [
+    {
+      title: "Intersections of Cayley Permutations, Fubini Rankings, and Unit Interval Parking Functions",
+      authors: "Eban Barrett, Melissa Beerbower, Jennifer Elder, Pamela E. Harris, Maritza Sanchez, Tung Vo và Cyrus Young",
+      meta: "Bài báo nghiên cứu · Đang chuẩn bị · 2026",
+      action: { href: "assets/research/Ponce_REU_Working_Draft.pdf", labelKey: "readManuscript" },
+    },
+  ],
   presentations: [
+    {
+      title: "“An Inversion-Preserving Bijection Between Cayley Permutations and Fubini Rankings.”",
+      meta: "Cùng Eban M. Barrett và Maritza A. Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
+      metaDatetime: "2026",
+      action: { href: "assets/research/YMC2026_Inversion_Preserving_Bijection_Slides.pdf", labelKey: "viewSlides" },
+    },
     {
       title: "“Competitive Zero Forcing: A Novel Two-Player Graph Coloring Game.”",
       meta: "Cùng Stephano Cotsoradis và Cole Rutherford · University of St. Thomas Annual Research Symposium · 2026",

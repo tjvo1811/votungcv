@@ -25,6 +25,7 @@ window.SITE_CONTENT_EN = {
   },
   nav: {
     research: "Research",
+    publications: "Publications",
     presentations: "Presentations",
     leadership: "Outreach",
     recognition: "Recognition",
@@ -32,6 +33,7 @@ window.SITE_CONTENT_EN = {
   },
   sections: {
     research: "Research",
+    publications: "Publications",
     presentations: "Presentations",
     leadership: "Outreach",
     recognition: "Recognition",
@@ -41,8 +43,10 @@ window.SITE_CONTENT_EN = {
     resume: "resume",
     cv: "CV",
     viewPoster: "View poster →",
+    viewSlides: "View slides →",
     viewConferencePoster: "View conference poster →",
     readPaper: "Read paper →",
+    readManuscript: "Read working manuscript →",
     readRelatedPaper: "Read related paper →",
     backToGallery: "Back to gallery",
     viewRelatedActivity: "Related activity",
@@ -137,7 +141,21 @@ window.SITE_CONTENT_EN = {
       links: [{ href: "assets/research/NMUN_Research.pdf", labelKey: "readPaper" }],
     },
   ],
+  publications: [
+    {
+      title: "Intersections of Cayley Permutations, Fubini Rankings, and Unit Interval Parking Functions",
+      authors: "Eban Barrett, Melissa Beerbower, Jennifer Elder, Pamela E. Harris, Maritza Sanchez, Tung Vo, and Cyrus Young",
+      meta: "Research article · In preparation · 2026",
+      action: { href: "assets/research/Ponce_REU_Working_Draft.pdf", labelKey: "readManuscript" },
+    },
+  ],
   presentations: [
+    {
+      title: "“An Inversion-Preserving Bijection Between Cayley Permutations and Fubini Rankings.”",
+      meta: "With Eban M. Barrett and Maritza A. Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
+      metaDatetime: "2026",
+      action: { href: "assets/research/YMC2026_Inversion_Preserving_Bijection_Slides.pdf", labelKey: "viewSlides" },
+    },
     {
       title: "“Competitive Zero Forcing: A Novel Two-Player Graph Coloring Game.”",
       meta: "With Stephano Cotsoradis and Cole Rutherford · University of St. Thomas Annual Research Symposium · 2026",
