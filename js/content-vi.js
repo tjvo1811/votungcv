@@ -153,7 +153,7 @@ window.SITE_CONTENT_VI = {
   presentations: [
     {
       title: "“An Inversion-Preserving Bijection Between Cayley Permutations and Fubini Rankings.”",
-      meta: "Cùng Eban M. Barrett và Maritza A. Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
+      meta: "Cùng Eban Barrett và Maritza Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
       metaDatetime: "2026",
     },
     {
