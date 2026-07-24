@@ -108,7 +108,7 @@ window.SITE_CONTENT_EN = {
         "Proved enumerative and structural results and characterized intersections among combinatorial families.",
         "Co-authored an article draft supported by Python enumeration.",
       ],
-      links: [{ href: "assets/research/YMC2026_Inversion_Preserving_Bijection_Slides.pdf", labelKey: "viewSlides" }],
+      links: [{ href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" }],
     },
     {
       title: "Recruitment tactics and desertion during the Vietnam War",
@@ -150,7 +150,7 @@ window.SITE_CONTENT_EN = {
   ],
   presentations: [
     {
-      title: "“An Inversion-Preserving Bijection Between Cayley Permutations and Fubini Rankings.”",
+      title: "“Enumerating Weak Order Fubini Rankings and Unit Interval Parking Functions.”",
       meta: "With Eban Barrett and Maritza Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
       metaDatetime: "2026",
     },

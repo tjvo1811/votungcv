@@ -110,7 +110,7 @@ window.SITE_CONTENT_VI = {
         "Chứng minh các kết quả về phép đếm và cấu trúc, đồng thời mô tả đặc trưng các phần giao của những họ đối tượng tổ hợp.",
         "Cùng các đồng tác giả xây dựng một bản thảo bài báo, với sự hỗ trợ của các phép đếm được thực hiện bằng Python.",
       ],
-      links: [{ href: "assets/research/YMC2026_Inversion_Preserving_Bijection_Slides.pdf", labelKey: "viewSlides" }],
+      links: [{ href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" }],
     },
     {
       title: "Chiến thuật tuyển quân và đào ngũ trong Chiến tranh Việt Nam",
@@ -152,7 +152,7 @@ window.SITE_CONTENT_VI = {
   ],
   presentations: [
     {
-      title: "“An Inversion-Preserving Bijection Between Cayley Permutations and Fubini Rankings.”",
+      title: "“Enumerating Weak Order Fubini Rankings and Unit Interval Parking Functions.”",
       meta: "Cùng Eban Barrett và Maritza Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
       metaDatetime: "2026",
     },
