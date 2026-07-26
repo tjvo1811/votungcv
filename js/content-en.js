@@ -153,6 +153,7 @@ window.SITE_CONTENT_EN = {
       title: "“Enumerating Weak Order Fubini Rankings and Unit Interval Parking Functions.”",
       meta: "With Eban Barrett and Maritza Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
       metaDatetime: "2026",
+      action: { href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" },
     },
     {
       title: "“Competitive Zero Forcing: A Novel Two-Player Graph Coloring Game.”",
