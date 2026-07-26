@@ -150,7 +150,7 @@ window.SITE_CONTENT_EN = {
   ],
   presentations: [
     {
-      title: "“Enumerating Weak Order Fubini Rankings and Unit Interval Parking Functions.”",
+      title: "“Enumerating Weak Order Unit Fubini Rankings.”",
       meta: "With Eban Barrett and Maritza Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
       metaDatetime: "2026",
       action: { href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" },
