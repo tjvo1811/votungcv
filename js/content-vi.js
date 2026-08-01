@@ -328,7 +328,6 @@ window.SITE_CONTENT_VI = {
       href: "https://www.osha.gov/training/outreach",
     },
   ],
-  galleryIntro: "Kho lưu trữ trực quan về trải nghiệm du học, hội nghị và hoạt động cộng đồng.",
   gallery: [
     {
       id: "young-mathematicians-conference-ohio-state",

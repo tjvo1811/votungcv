@@ -286,7 +286,6 @@ window.SiteRender = (() => {
       <section class="view" id="gallery" aria-labelledby="gallery-heading" hidden>
         <div class="breadcrumb"><a href="#top">${escapeHtml(content.intro.name)}</a><span>&gt;</span><span>${escapeHtml(content.sections.gallery)}</span></div>
         <h2 id="gallery-heading">${escapeHtml(content.sections.gallery)}</h2>
-        <p class="gallery-intro">${escapeHtml(content.galleryIntro)}</p>
         <ul class="album-grid">${renderGallery(content)}</ul>
       </section>
 

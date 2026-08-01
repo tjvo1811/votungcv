@@ -326,7 +326,6 @@ window.SITE_CONTENT_EN = {
       href: "https://www.osha.gov/training/outreach",
     },
   ],
-  galleryIntro: "A visual archive of study abroad, conference, and community experiences.",
   gallery: [
     {
       id: "young-mathematicians-conference-ohio-state",
