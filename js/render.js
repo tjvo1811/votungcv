@@ -10,10 +10,26 @@ window.SiteRender = (() => {
       .replace(/"/g, "&quot;");
 
   const resolveAsset = (_basePath, href) => window.SiteI18n.assetUrl(href);
+  const resolveGalleryAsset = (href) => `${resolveAsset(null, href)}?v=20260801-gallery-fix-2`;
 
   const linkLabel = (content, labelKey) => content.ui[labelKey] || labelKey;
 
   const renderPresentationMeta = (item) => {
+    if (Array.isArray(item.metaSegments)) {
+      const segments = item.metaSegments
+        .map((segment) => {
+          if (typeof segment === "string") return escapeHtml(segment);
+          if (segment.href) {
+            return `<a href="${escapeHtml(segment.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(segment.text)}</a>`;
+          }
+          return escapeHtml(segment.text);
+        })
+        .join("");
+      const datetime = item.metaDatetime
+        ? `<time datetime="${escapeHtml(item.metaDatetime)}">${escapeHtml(item.metaDatetime)}</time>`
+        : "";
+      return `${segments}${datetime}`;
+    }
     if (!item.metaDatetime) return escapeHtml(item.meta);
     if (!item.meta.endsWith(item.metaDatetime)) return escapeHtml(item.meta);
     const prefix = item.meta.slice(0, -item.metaDatetime.length);
@@ -125,7 +141,7 @@ window.SiteRender = (() => {
     content.gallery
       .map((album) => {
         const cover = album.photos[0];
-        const coverSrc = resolveAsset(null, cover.src);
+        const coverSrc = resolveGalleryAsset(cover.src);
         const countLabel = album.photos.length === 1 ? content.ui.image : content.ui.images;
         return `<li>
           <a class="album-card" href="#album-${escapeHtml(album.id)}" aria-label="${escapeHtml(album.title)}">
@@ -145,12 +161,15 @@ window.SiteRender = (() => {
   const renderAlbumPhotos = (album, content) =>
     album.photos
       .map((photo) => {
-        const src = resolveAsset(null, photo.src);
+        const src = resolveGalleryAsset(photo.src);
+        const caption = album.hidePhotoCaptions
+          ? ""
+          : `<figcaption>${escapeHtml(photo.caption)}</figcaption>`;
         return `<figure class="gallery-photo">
           <a href="${escapeHtml(src)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(content.ui.openImage)}: ${escapeHtml(photo.caption)}">
             <img src="${escapeHtml(src)}" alt="${escapeHtml(photo.alt)}" loading="lazy">
           </a>
-          <figcaption>${escapeHtml(photo.caption)}</figcaption>
+          ${caption}
         </figure>`;
       })
       .join("");

@@ -154,6 +154,11 @@ window.SITE_CONTENT_VI = {
     {
       title: "“Enumerating Weak Order Unit Fubini Rankings.”",
       meta: "Cùng Eban Barrett và Maritza Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
+      metaSegments: [
+        "Cùng Eban Barrett và Maritza Sanchez · ",
+        { text: "Young Mathematicians Conference", href: "https://ymc.osu.edu/ymc-program-2026" },
+        " · The Ohio State University, Columbus, Ohio · ",
+      ],
       metaDatetime: "2026",
       action: { href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" },
     },
@@ -325,6 +330,97 @@ window.SITE_CONTENT_VI = {
   ],
   galleryIntro: "Kho lưu trữ trực quan về trải nghiệm du học, hội nghị và hoạt động cộng đồng.",
   gallery: [
+    {
+      id: "young-mathematicians-conference-ohio-state",
+      title: "Young Mathematicians Conference — The Ohio State University",
+      meta: "The Ohio State University · Columbus, Ohio · 2026",
+      description: "Những bức ảnh từ Young Mathematicians Conference tại The Ohio State University ở Columbus, Ohio.",
+      relatedHash: "presentations",
+      relatedLabel: "Bài thuyết trình tại Young Mathematicians Conference",
+      hidePhotoCaptions: true,
+      photos: [
+        {
+          src: "assets/gallery/young-mathematicians-conference/conference-group.jpg",
+          alt: "Các thành viên Young Mathematicians Conference chụp ảnh bên ngoài một tòa nhà gạch tại The Ohio State University",
+          caption: "Các thành viên Young Mathematicians Conference tại The Ohio State University.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/group-photo.jpg",
+          alt: "Các thành viên và ban tổ chức Young Mathematicians Conference chụp ảnh trong lớp học",
+          caption: "Các thành viên và ban tổ chức tập trung trong hội nghị.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/group-selfie.jpg",
+          alt: "Các thành viên Young Mathematicians Conference chụp ảnh selfie ngoài trời",
+          caption: "Ảnh selfie tại hội nghị ở Columbus, Ohio.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/dinner-photo.jpg",
+          alt: "Các thành viên Young Mathematicians Conference dùng bữa cùng nhau",
+          caption: "Kết nối với các thành viên khác trong bữa tối.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5456.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference tại The Ohio State University",
+          caption: "Một khoảnh khắc tại Young Mathematicians Conference.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5447.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference ở Columbus, Ohio",
+          caption: "Một khoảnh khắc hội nghị ở Columbus, Ohio.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5436.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference tại Ohio State",
+          caption: "Một khoảnh khắc trong chuyến thăm hội nghị tại Ohio State.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5430.jpg",
+          alt: "Các thành viên Young Mathematicians Conference ở Columbus, Ohio",
+          caption: "Các thành viên trong chuyến đi hội nghị.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5429.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference ở Columbus",
+          caption: "Một khoảnh khắc hội nghị khác ở Columbus.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5428.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference tại The Ohio State University",
+          caption: "Một khoảnh khắc tại Young Mathematicians Conference.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5427.jpg",
+          alt: "Các thành viên Young Mathematicians Conference tham quan Ohio State",
+          caption: "Các thành viên tham quan The Ohio State University.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5426.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference ở Columbus, Ohio",
+          caption: "Một khoảnh khắc hội nghị ở Columbus, Ohio.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5425.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference tại Ohio State",
+          caption: "Một khoảnh khắc trong chuyến thăm hội nghị tại Ohio State.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5424.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference ở Columbus",
+          caption: "Một khoảnh khắc hội nghị ở Columbus.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5387.jpg",
+          alt: "Các thành viên Young Mathematicians Conference ở Columbus, Ohio",
+          caption: "Các thành viên trong chuyến đi hội nghị.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5372.jpg",
+          alt: "Một bức ảnh từ Young Mathematicians Conference tại The Ohio State University",
+          caption: "Một khoảnh khắc tại Young Mathematicians Conference.",
+        },
+      ],
+    },
     {
       id: "distinguished-global-scholar-study-abroad",
       title: "Chuyến du học Distinguished Global Scholar — Ireland",

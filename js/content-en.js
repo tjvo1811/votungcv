@@ -152,6 +152,11 @@ window.SITE_CONTENT_EN = {
     {
       title: "“Enumerating Weak Order Unit Fubini Rankings.”",
       meta: "With Eban Barrett and Maritza Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
+      metaSegments: [
+        "With Eban Barrett and Maritza Sanchez · ",
+        { text: "Young Mathematicians Conference", href: "https://ymc.osu.edu/ymc-program-2026" },
+        " · The Ohio State University, Columbus, Ohio · ",
+      ],
       metaDatetime: "2026",
       action: { href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" },
     },
@@ -323,6 +328,97 @@ window.SITE_CONTENT_EN = {
   ],
   galleryIntro: "A visual archive of study abroad, conference, and community experiences.",
   gallery: [
+    {
+      id: "young-mathematicians-conference-ohio-state",
+      title: "Young Mathematicians Conference — The Ohio State University",
+      meta: "The Ohio State University · Columbus, Ohio · 2026",
+      description: "Photos from the Young Mathematicians Conference at The Ohio State University in Columbus, Ohio.",
+      relatedHash: "presentations",
+      relatedLabel: "Young Mathematicians Conference presentation",
+      hidePhotoCaptions: true,
+      photos: [
+        {
+          src: "assets/gallery/young-mathematicians-conference/conference-group.jpg",
+          alt: "Young Mathematicians Conference participants posing outside a brick building at The Ohio State University",
+          caption: "Young Mathematicians Conference participants at The Ohio State University.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/group-photo.jpg",
+          alt: "Young Mathematicians Conference participants and organizers posing in a classroom",
+          caption: "Participants and organizers gathered during the conference.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/group-selfie.jpg",
+          alt: "Young Mathematicians Conference participants taking a selfie outside",
+          caption: "A conference selfie in Columbus, Ohio.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/dinner-photo.jpg",
+          alt: "Young Mathematicians Conference participants sharing a meal",
+          caption: "Connecting with fellow participants over dinner.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5456.jpg",
+          alt: "A photo from the Young Mathematicians Conference at The Ohio State University",
+          caption: "A moment from the Young Mathematicians Conference.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5447.jpg",
+          alt: "A photo from the Young Mathematicians Conference in Columbus, Ohio",
+          caption: "A conference moment in Columbus, Ohio.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5436.jpg",
+          alt: "A photo from the Young Mathematicians Conference at Ohio State",
+          caption: "A moment from the Ohio State conference visit.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5430.jpg",
+          alt: "Young Mathematicians Conference participants in Columbus, Ohio",
+          caption: "Participants during the conference trip.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5429.jpg",
+          alt: "A photo from the Young Mathematicians Conference in Columbus",
+          caption: "Another conference moment in Columbus.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5428.jpg",
+          alt: "A photo from the Young Mathematicians Conference at The Ohio State University",
+          caption: "A moment from the Young Mathematicians Conference.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5427.jpg",
+          alt: "Young Mathematicians Conference participants visiting Ohio State",
+          caption: "Participants visiting The Ohio State University.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5426.jpg",
+          alt: "A photo from the Young Mathematicians Conference in Columbus, Ohio",
+          caption: "A conference moment in Columbus, Ohio.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5425.jpg",
+          alt: "A photo from the Young Mathematicians Conference at Ohio State",
+          caption: "A moment from the Ohio State conference visit.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5424.jpg",
+          alt: "A photo from the Young Mathematicians Conference in Columbus",
+          caption: "A conference moment in Columbus.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5387.jpg",
+          alt: "Young Mathematicians Conference participants in Columbus, Ohio",
+          caption: "Participants during the conference trip.",
+        },
+        {
+          src: "assets/gallery/young-mathematicians-conference/img-5372.jpg",
+          alt: "A photo from the Young Mathematicians Conference at The Ohio State University",
+          caption: "A moment from the Young Mathematicians Conference.",
+        },
+      ],
+    },
     {
       id: "distinguished-global-scholar-study-abroad",
       title: "Distinguished Global Scholar Study Abroad — Ireland",
