@@ -62,7 +62,7 @@ window.SITE_CONTENT_VI = {
       },
       {
         type: "html",
-        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> về competitive zero forcing. Mùa hè này, tôi là nghiên cứu viên của chương trình NSF REU tại <a href="https://www.uprp.edu/" target="_blank" rel="noopener noreferrer">University of Puerto Rico at Ponce</a>, nghiên cứu về tổ hợp.',
+        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> về competitive zero forcing.',
       },
       {
         type: "text",
