@@ -62,11 +62,11 @@ window.SITE_CONTENT_VI = {
       },
       {
         type: "html",
-        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> về competitive zero forcing.',
+        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> về competitive zero forcing. Tôi cũng sẽ tiếp tục hợp tác với Saber Dinpazhouh tại <a href="https://www.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a> về qubit routing.',
       },
       {
         type: "text",
-        text: "Tôi đang theo học ngành Toán ứng dụng tại University of St. Thomas ở Houston và dự kiến tốt nghiệp năm 2028. Trước đó, tôi đã tốt nghiệp Lone Star College với bằng Honors Associate of Science (bằng cao đẳng Khoa học thuộc chương trình danh dự), đạt danh dự Summa Cum Laude, đồng thời là Distinguished Global Scholar với định hướng International Study.",
+        text: "Tôi đang theo học ngành Toán ứng dụng tại University of St. Thomas ở Houston và dự kiến tốt nghiệp năm 2028.",
       },
       {
         type: "html",

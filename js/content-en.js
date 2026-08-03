@@ -60,11 +60,11 @@ window.SITE_CONTENT_EN = {
       },
       {
         type: "html",
-        html: 'This fall, I will continue working with Dr. Mary Flagg at the <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> on competitive zero forcing.',
+        html: 'This fall, I will continue working with Dr. Mary Flagg at the <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> on competitive zero forcing. I will also continue collaborating with Saber Dinpazhouh at <a href="https://www.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a> on qubit routing.',
       },
       {
         type: "text",
-        text: "I study Applied Mathematics at the University of St. Thomas in Houston, graduating in 2028. I previously earned an Honors Associate of Science, Summa Cum Laude, from Lone Star College as a Distinguished Global Scholar with a concentration in International Study.",
+        text: "I study Applied Mathematics at the University of St. Thomas in Houston, graduating in 2028.",
       },
       {
         type: "html",
