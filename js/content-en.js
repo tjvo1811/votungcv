@@ -25,7 +25,6 @@ window.SITE_CONTENT_EN = {
   },
   nav: {
     research: "Research",
-    publications: "Publications",
     presentations: "Presentations",
     leadership: "Outreach",
     recognition: "Recognition",
@@ -33,7 +32,6 @@ window.SITE_CONTENT_EN = {
   },
   sections: {
     research: "Research",
-    publications: "Publications",
     presentations: "Presentations",
     leadership: "Outreach",
     recognition: "Recognition",
@@ -139,13 +137,6 @@ window.SITE_CONTENT_EN = {
         "Used triangulation and content analysis to examine public speaking and leadership in large delegate settings.",
       ],
       links: [{ href: "assets/research/NMUN_Research.pdf", labelKey: "readPaper" }],
-    },
-  ],
-  publications: [
-    {
-      title: "Intersections of Cayley Permutations, Fubini Rankings, and Unit Interval Parking Functions",
-      authors: "Eban Barrett, Melissa Beerbower, Jennifer Elder, Pamela E. Harris, Maritza Sanchez, Tung Vo, and Cyrus Young",
-      meta: "Research article · In preparation · 2026",
     },
   ],
   presentations: [
@@ -331,10 +322,8 @@ window.SITE_CONTENT_EN = {
       id: "young-mathematicians-conference-ohio-state",
       title: "Young Mathematicians Conference — The Ohio State University",
       meta: "The Ohio State University · Columbus, Ohio · 2026",
-      description: "Photos from the Young Mathematicians Conference at The Ohio State University in Columbus, Ohio.",
       relatedHash: "presentations",
       relatedLabel: "Young Mathematicians Conference presentation",
-      hidePhotoCaptions: true,
       photos: [
         {
           src: "assets/gallery/young-mathematicians-conference/conference-group.jpg",
@@ -422,7 +411,6 @@ window.SITE_CONTENT_EN = {
       id: "distinguished-global-scholar-study-abroad",
       title: "Distinguished Global Scholar Study Abroad — Ireland",
       meta: "Lone Star College · Ireland · 2025",
-      description: "Moments from the Distinguished Global Scholar study abroad experience in Ireland.",
       relatedHash: "recognition",
       relatedLabel: "Distinguished Global Scholar Study Abroad Scholarship",
       photos: [
@@ -472,7 +460,6 @@ window.SITE_CONTENT_EN = {
       id: "case-tunisia",
       title: "Community and Social Entrepreneurship (CASE) — Tunisia",
       meta: "Amideast Education Abroad · Tunis, Tunisia · Summer 2025",
-      description: "An eight-day program connecting students with local peers and civil society organizations through discussions, tours, and community engagement.",
       relatedHash: "leadership",
       relatedLabel: "Community and Social Entrepreneurship (CASE) Program",
       photos: [
@@ -547,7 +534,6 @@ window.SITE_CONTENT_EN = {
       id: "national-model-un-new-york",
       title: "National Model United Nations–New York",
       meta: "New York City · 2024",
-      description: "Competing at National Model UN–New York through UNESCO committee sessions, international collaboration, and connections with delegates from around the world.",
       relatedHash: "recognition",
       relatedLabel: "National Model UN awards and recognition",
       photos: [

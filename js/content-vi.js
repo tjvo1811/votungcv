@@ -27,7 +27,6 @@ window.SITE_CONTENT_VI = {
   },
   nav: {
     research: "Nghiên cứu",
-    publications: "Công bố khoa học",
     presentations: "Bài thuyết trình",
     leadership: "Hoạt động cộng đồng",
     recognition: "Thành tích",
@@ -35,7 +34,6 @@ window.SITE_CONTENT_VI = {
   },
   sections: {
     research: "Nghiên cứu",
-    publications: "Công bố khoa học",
     presentations: "Bài thuyết trình",
     leadership: "Hoạt động cộng đồng",
     recognition: "Thành tích",
@@ -141,13 +139,6 @@ window.SITE_CONTENT_VI = {
         "Sử dụng phép tam giác hóa (triangulation) và phân tích nội dung để khảo sát kỹ năng nói trước công chúng và năng lực lãnh đạo trong bối cảnh có đông đại biểu.",
       ],
       links: [{ href: "assets/research/NMUN_Research.pdf", labelKey: "readPaper" }],
-    },
-  ],
-  publications: [
-    {
-      title: "Intersections of Cayley Permutations, Fubini Rankings, and Unit Interval Parking Functions",
-      authors: "Eban Barrett, Melissa Beerbower, Jennifer Elder, Pamela E. Harris, Maritza Sanchez, Tung Vo và Cyrus Young",
-      meta: "Bài báo nghiên cứu · Đang chuẩn bị · 2026",
     },
   ],
   presentations: [
@@ -333,10 +324,8 @@ window.SITE_CONTENT_VI = {
       id: "young-mathematicians-conference-ohio-state",
       title: "Young Mathematicians Conference — The Ohio State University",
       meta: "The Ohio State University · Columbus, Ohio · 2026",
-      description: "Những bức ảnh từ Young Mathematicians Conference tại The Ohio State University ở Columbus, Ohio.",
       relatedHash: "presentations",
       relatedLabel: "Bài thuyết trình tại Young Mathematicians Conference",
-      hidePhotoCaptions: true,
       photos: [
         {
           src: "assets/gallery/young-mathematicians-conference/conference-group.jpg",
@@ -424,7 +413,6 @@ window.SITE_CONTENT_VI = {
       id: "distinguished-global-scholar-study-abroad",
       title: "Chuyến du học Distinguished Global Scholar — Ireland",
       meta: "Lone Star College · Ireland · 2025",
-      description: "Những khoảnh khắc trong trải nghiệm du học Distinguished Global Scholar tại Ireland.",
       relatedHash: "recognition",
       relatedLabel: "Học bổng du học Distinguished Global Scholar",
       photos: [
@@ -474,7 +462,6 @@ window.SITE_CONTENT_VI = {
       id: "case-tunisia",
       title: "Community and Social Entrepreneurship (CASE) — Tunisia",
       meta: "Amideast Education Abroad · Tunis, Tunisia · Mùa hè 2025",
-      description: "Chương trình kéo dài tám ngày kết nối sinh viên với các bạn đồng trang lứa và tổ chức xã hội dân sự địa phương qua thảo luận, tham quan và hoạt động cộng đồng.",
       relatedHash: "leadership",
       relatedLabel: "Chương trình Community and Social Entrepreneurship (CASE)",
       photos: [
@@ -549,7 +536,6 @@ window.SITE_CONTENT_VI = {
       id: "national-model-un-new-york",
       title: "National Model United Nations–New York",
       meta: "Thành phố New York · 2024",
-      description: "Tranh tài tại National Model UN–New York qua các phiên họp ủy ban UNESCO, hợp tác quốc tế và kết nối với đại biểu từ khắp nơi trên thế giới.",
       relatedHash: "recognition",
       relatedLabel: "Giải thưởng và ghi nhận tại National Model UN",
       photos: [

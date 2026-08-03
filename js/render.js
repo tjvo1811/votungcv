@@ -89,17 +89,6 @@ window.SiteRender = (() => {
       })
       .join("");
 
-  const renderPublications = (content) =>
-    content.publications
-      .map(
-        (item) => `<li>
-          <p class="publication-title">${escapeHtml(item.title)}</p>
-          <p class="publication-authors">${escapeHtml(item.authors)}</p>
-          <p class="publication-meta">${escapeHtml(item.meta)}</p>
-        </li>`,
-      )
-      .join("");
-
   const renderLeadership = (content) =>
     content.leadership
       .map((item) => {
@@ -162,14 +151,10 @@ window.SiteRender = (() => {
     album.photos
       .map((photo) => {
         const src = resolveGalleryAsset(photo.src);
-        const caption = album.hidePhotoCaptions
-          ? ""
-          : `<figcaption>${escapeHtml(photo.caption)}</figcaption>`;
         return `<figure class="gallery-photo">
           <a href="${escapeHtml(src)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(content.ui.openImage)}: ${escapeHtml(photo.caption)}">
             <img src="${escapeHtml(src)}" alt="${escapeHtml(photo.alt)}" loading="lazy">
           </a>
-          ${caption}
         </figure>`;
       })
       .join("");
@@ -185,7 +170,6 @@ window.SiteRender = (() => {
           </div>
           <p class="album-kicker">${escapeHtml(album.meta)}</p>
           <h2 id="album-${escapeHtml(album.id)}-heading">${escapeHtml(album.title)}</h2>
-          <p class="album-description">${escapeHtml(album.description)}</p>
           <a class="related-activity" href="#${escapeHtml(album.relatedHash)}">
             <span>${escapeHtml(content.ui.viewRelatedActivity)}</span>
             <strong>${escapeHtml(album.relatedLabel)} <b aria-hidden="true">→</b></strong>
@@ -247,7 +231,6 @@ window.SiteRender = (() => {
       <nav aria-label="${escapeHtml(content.aria.siteSections)}" data-view="home">
         <a href="#research">${escapeHtml(content.nav.research)}</a><span>·</span>
         <a href="#presentations">${escapeHtml(content.nav.presentations)}</a><span>·</span>
-        <a href="#publications">${escapeHtml(content.nav.publications)}</a><span>·</span>
         <a href="#leadership">${escapeHtml(content.nav.leadership)}</a><span>·</span>
         <a href="#recognition">${escapeHtml(content.nav.recognition)}</a><span>·</span>
         <a href="#gallery">${escapeHtml(content.nav.gallery)}</a>
@@ -263,12 +246,6 @@ window.SiteRender = (() => {
         <div class="breadcrumb"><a href="#top">${escapeHtml(content.intro.name)}</a><span>&gt;</span><span>${escapeHtml(content.sections.presentations)}</span></div>
         <h2 id="presentations-heading">${escapeHtml(content.sections.presentations)}</h2>
         <ul class="plain-list presentation-list">${renderPresentations(content)}</ul>
-      </section>
-
-      <section class="view" id="publications" aria-labelledby="publications-heading" hidden>
-        <div class="breadcrumb"><a href="#top">${escapeHtml(content.intro.name)}</a><span>&gt;</span><span>${escapeHtml(content.sections.publications)}</span></div>
-        <h2 id="publications-heading">${escapeHtml(content.sections.publications)}</h2>
-        <ul class="plain-list publication-list">${renderPublications(content)}</ul>
       </section>
 
       <section class="view" id="leadership" aria-labelledby="leadership-heading" hidden>
