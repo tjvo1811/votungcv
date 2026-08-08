@@ -60,11 +60,15 @@ window.SITE_CONTENT_EN = {
       },
       {
         type: "html",
-        html: 'This fall, I will continue working with Dr. Mary Flagg at the <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> on competitive zero forcing. I will also continue collaborating with Saber Dinpazhouh at <a href="https://www.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a> on qubit routing.',
+        html: 'This fall, I will continue working with Dr. Mary Flagg at the <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> on competitive zero forcing. I will also continue collaborating with Saber Dinpazhouh, advised by Dr. Illya Hicks at <a href="https://www.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a> on qubit routing.',
       },
       {
         type: "text",
         text: "I study Applied Mathematics at the University of St. Thomas in Houston, graduating in 2028.",
+      },
+      {
+        type: "html",
+        html: 'If you\'re a student like I am, feel free to use this <a href="https://cathauss.netlify.app" target="_blank" rel="noopener noreferrer">Pomodoro Timer</a> I made! :)',
       },
       {
         type: "html",
@@ -75,8 +79,8 @@ window.SITE_CONTENT_EN = {
         before: "Here are my ",
         mid: " and ",
         after: ".",
-        resumeHref: "assets/Tung-Vo-Resume.pdf",
-        cvHref: "assets/Tung-Vo-CV.pdf",
+        resumeHref: "assets/Tung-Vo-Resume-2026.pdf",
+        cvHref: "assets/Tung-Vo-CV-2026.pdf",
       },
     ],
   },
@@ -104,7 +108,7 @@ window.SITE_CONTENT_EN = {
       meta: "University of Puerto Rico, Ponce · Summer 2026",
       points: [
         "Proved enumerative and structural results and characterized intersections among combinatorial families.",
-        "Co-authored an article draft supported by Python enumeration.",
+        "Co-authored manuscript in preparation, supported by Python enumeration.",
       ],
       links: [{ href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" }],
     },

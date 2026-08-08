@@ -62,11 +62,15 @@ window.SITE_CONTENT_VI = {
       },
       {
         type: "html",
-        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> về competitive zero forcing. Tôi cũng sẽ tiếp tục hợp tác với Saber Dinpazhouh tại <a href="https://www.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a> về qubit routing.',
+        html: 'Mùa thu này, tôi sẽ tiếp tục làm việc với Tiến sĩ Mary Flagg tại <a href="https://stthom.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas</a> về competitive zero forcing. Tôi cũng sẽ tiếp tục hợp tác với Saber Dinpazhouh, dưới sự hướng dẫn của Tiến sĩ Illya Hicks tại <a href="https://www.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a> về qubit routing.',
       },
       {
         type: "text",
         text: "Tôi đang theo học ngành Toán ứng dụng tại University of St. Thomas ở Houston và dự kiến tốt nghiệp năm 2028.",
+      },
+      {
+        type: "html",
+        html: 'Nếu bạn cũng là sinh viên như tôi, cứ dùng thử <a href="https://cathauss.netlify.app" target="_blank" rel="noopener noreferrer">đồng hồ Pomodoro</a> mình làm nhé! :)',
       },
       {
         type: "html",
@@ -77,8 +81,8 @@ window.SITE_CONTENT_VI = {
         before: "Đây là ",
         mid: " và ",
         after: " bằng tiếng Anh của tôi.",
-        resumeHref: "assets/Tung-Vo-Resume.pdf",
-        cvHref: "assets/Tung-Vo-CV.pdf",
+        resumeHref: "assets/Tung-Vo-Resume-2026.pdf",
+        cvHref: "assets/Tung-Vo-CV-2026.pdf",
       },
     ],
   },
@@ -106,7 +110,7 @@ window.SITE_CONTENT_VI = {
       meta: "University of Puerto Rico, Ponce · Mùa hè 2026",
       points: [
         "Chứng minh các kết quả về phép đếm và cấu trúc, đồng thời mô tả đặc trưng các phần giao của những họ đối tượng tổ hợp.",
-        "Cùng các đồng tác giả xây dựng một bản thảo bài báo, với sự hỗ trợ của các phép đếm được thực hiện bằng Python.",
+        "Đồng tác giả bản thảo đang soạn, với sự hỗ trợ của các phép đếm bằng Python.",
       ],
       links: [{ href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" }],
     },
