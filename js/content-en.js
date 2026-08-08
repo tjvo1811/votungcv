@@ -68,7 +68,7 @@ window.SITE_CONTENT_EN = {
       },
       {
         type: "html",
-        html: 'If you\'re a student like I am, feel free to use this <a href="https://cathauss.netlify.app" target="_blank" rel="noopener noreferrer">Pomodoro Timer</a> I made! :)',
+        html: 'If you\'re a student like I am, feel free to try out this <a href="https://cathauss.netlify.app" target="_blank" rel="noopener noreferrer">Pomodoro Timer</a> I made! :)',
       },
       {
         type: "html",
