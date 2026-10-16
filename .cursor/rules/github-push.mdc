@@ -1,0 +1,17 @@
+---
+description: How to push changes to GitHub for this site
+alwaysApply: true
+---
+
+# GitHub push workflow
+
+Remote: `https://github.com/tjvo1811/votungcv.git` (repo `tjvo1811/votungcv`, branch `main`).
+
+When the user asks to upload, push, or sync changes to GitHub:
+
+1. Work **in this folder only**. Do not clone the repo into a staging directory.
+2. Commit here (after `git status` / `git diff` / `git log` as usual), then `git push origin main`.
+3. If `.git` is missing or disconnected, reconnect with `git init` + `git remote add origin https://github.com/tjvo1811/votungcv.git` (or set-url), `git fetch origin`, and put local `main` on top of `origin/main` **without** wiping the working tree — then commit and push.
+4. Never clone to a temp/`_push` folder to ship changes.
+5. Do not force-push to `main` unless the user explicitly asks.
+6. Do not commit root-level duplicate PDFs or `.DS_Store`; respect `.gitignore`. Tracked site files are `index.html`, `styles.css`, `script.js`, `package.json`, `favicon.ico`, `CNAME`, `assets/`, `.gitignore`.

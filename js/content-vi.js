@@ -112,7 +112,7 @@ window.SITE_CONTENT_VI = {
         "Chứng minh các kết quả về phép đếm và cấu trúc, đồng thời mô tả đặc trưng các phần giao của những họ đối tượng tổ hợp.",
         "Đồng tác giả bản thảo đang soạn, với sự hỗ trợ của các phép đếm bằng Python.",
       ],
-      links: [{ href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" }],
+      links: [{ href: "assets/research/SlideDeck.pdf", labelKey: "viewSlides" }],
     },
     {
       title: "Chiến thuật tuyển quân và đào ngũ trong Chiến tranh Việt Nam",

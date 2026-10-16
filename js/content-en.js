@@ -110,7 +110,7 @@ window.SITE_CONTENT_EN = {
         "Proved enumerative and structural results and characterized intersections among combinatorial families.",
         "Co-authored manuscript in preparation, supported by Python enumeration.",
       ],
-      links: [{ href: "assets/research/YMC2026_Enumerating_Weak_Order_Fubini_Rankings_and_Unit_Interval_Parking_Functions.pdf", labelKey: "viewSlides" }],
+      links: [{ href: "assets/research/SlideDeck.pdf", labelKey: "viewSlides" }],
     },
     {
       title: "Recruitment tactics and desertion during the Vietnam War",
