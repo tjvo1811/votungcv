@@ -149,6 +149,10 @@ window.SITE_CONTENT_VI = {
     {
       title: "“Competitive Zero Forcing on Paths and Cycles.”",
       meta: "Texas Undergraduate Mathematics Conference · Stephen F. Austin State University, Nacogdoches, Texas · 7 tháng 11, 2026",
+      metaSegments: [
+        { text: "Texas Undergraduate Mathematics Conference", href: "https://sections.maa.org/texas/tumc/" },
+        " · Stephen F. Austin State University, Nacogdoches, Texas · 7 tháng 11, ",
+      ],
       metaDatetime: "2026",
     },
     {
