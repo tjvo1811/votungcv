@@ -154,6 +154,7 @@ window.SITE_CONTENT_VI = {
         " · Stephen F. Austin State University, Nacogdoches, Texas · 7 tháng 11, ",
       ],
       metaDatetime: "2026",
+      action: { href: "assets/research/TUMC_Competitive_Zero_Forcing.pdf", labelKey: "viewSlides" },
     },
     {
       title: "“Enumerating Weak Order Unit Fubini Rankings.”",
