@@ -147,6 +147,11 @@ window.SITE_CONTENT_VI = {
   ],
   presentations: [
     {
+      title: "“Competitive Zero Forcing on Paths and Cycles.”",
+      meta: "Texas Undergraduate Mathematics Conference · Stephen F. Austin State University, Nacogdoches, Texas · 7 tháng 11, 2026",
+      metaDatetime: "2026",
+    },
+    {
       title: "“Enumerating Weak Order Unit Fubini Rankings.”",
       meta: "Cùng Eban Barrett và Maritza Sanchez · Young Mathematicians Conference · The Ohio State University, Columbus, Ohio · 2026",
       metaSegments: [
