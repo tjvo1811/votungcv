@@ -68,10 +68,6 @@ window.SITE_CONTENT_EN = {
       },
       {
         type: "html",
-        html: 'If you\'re a student like I am, feel free to try out this <a href="https://cathauss.netlify.app" target="_blank" rel="noopener noreferrer">Pomodoro Timer</a> I made! :)',
-      },
-      {
-        type: "html",
         html: 'You can find me on <a href="https://www.linkedin.com/in/tung-vo-4728b7235" target="_blank" rel="noopener noreferrer">LinkedIn</a> or reach me by <a href="mailto:vo.tung@stthom.edu">email</a>.',
       },
       {
@@ -202,6 +198,13 @@ window.SITE_CONTENT_EN = {
     },
   ],
   leadership: [
+    {
+      title: "Innovator, Campus Initiatives",
+      meta: "University of St. Thomas",
+      points: [
+        "Volunteer at Campus Initiatives events as an Innovator (member).",
+      ],
+    },
     {
       title: "Community and Social Entrepreneurship (CASE) Program Scholarship Recipient",
       meta: "Amideast Education Abroad · Summer 2025",

@@ -70,10 +70,6 @@ window.SITE_CONTENT_VI = {
       },
       {
         type: "html",
-        html: 'Nếu bạn cũng là sinh viên như tôi, cứ dùng thử <a href="https://cathauss.netlify.app" target="_blank" rel="noopener noreferrer">đồng hồ Pomodoro</a> mình làm nhé! :)',
-      },
-      {
-        type: "html",
         html: 'Bạn có thể kết nối với tôi trên <a href="https://www.linkedin.com/in/tung-vo-4728b7235" target="_blank" rel="noopener noreferrer">LinkedIn</a> hoặc liên hệ với tôi qua <a href="mailto:vo.tung@stthom.edu">email</a>.',
       },
       {
@@ -204,6 +200,13 @@ window.SITE_CONTENT_VI = {
     },
   ],
   leadership: [
+    {
+      title: "Innovator, Campus Initiatives",
+      meta: "University of St. Thomas",
+      points: [
+        "Tham gia tình nguyện tại các sự kiện của Campus Initiatives với vai trò Innovator (thành viên).",
+      ],
+    },
     {
       title: "Nhận học bổng tham gia chương trình Community and Social Entrepreneurship (CASE)",
       meta: "Amideast Education Abroad · Mùa hè 2025",

@@ -194,6 +194,13 @@ Paper/talk titles stay in English (rule 8). Meta and actions localized.
 
 ## Outreach
 
+### Campus Initiatives
+- **Title EN/VI:** Innovator, Campus Initiatives
+- **Meta EN/VI:** University of St. Thomas
+- **Bullet EN:** Volunteer at Campus Initiatives events as an Innovator (member).
+- **Bullet VI:** Tham gia tình nguyện tại các sự kiện của Campus Initiatives với vai trò Innovator (thành viên).
+- **Notes:** Role and event volunteering supplied by Tung. No start date supplied; omitted rather than inferred.
+
 ### L1
 - **Title EN:** Community and Social Entrepreneurship (CASE) Program Scholarship Recipient
 - **Title VI:** Nhận học bổng tham gia chương trình Community and Social Entrepreneurship (CASE)
