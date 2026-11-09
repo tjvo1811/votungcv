@@ -204,7 +204,7 @@ window.SITE_CONTENT_VI = {
       title: "Innovator, Campus Initiatives",
       meta: "University of St. Thomas",
       points: [
-        "Tham gia tình nguyện tại các sự kiện của Campus Initiatives với vai trò Innovator (thành viên).",
+        "Tham gia tình nguyện với vai trò Innovator tại Campus Initiatives, một tổ chức của University of St. Thomas điều phối các hoạt động phát triển bền vững trong khuôn viên trường, xây dựng tinh thần gắn kết với trường thông qua các hoạt động sinh viên và triển khai các sáng kiến trên toàn trường.",
       ],
     },
     {

@@ -197,8 +197,8 @@ Paper/talk titles stay in English (rule 8). Meta and actions localized.
 ### Campus Initiatives
 - **Title EN/VI:** Innovator, Campus Initiatives
 - **Meta EN/VI:** University of St. Thomas
-- **Bullet EN:** Volunteer at Campus Initiatives events as an Innovator (member).
-- **Bullet VI:** Tham gia tình nguyện tại các sự kiện của Campus Initiatives với vai trò Innovator (thành viên).
+- **Bullet EN:** Volunteer as an Innovator with Campus Initiatives, a University of St. Thomas organization that coordinates campus sustainability efforts, builds school spirit through student activities, and carries out university-wide initiatives.
+- **Bullet VI:** Tham gia tình nguyện với vai trò Innovator tại Campus Initiatives, một tổ chức của University of St. Thomas điều phối các hoạt động phát triển bền vững trong khuôn viên trường, xây dựng tinh thần gắn kết với trường thông qua các hoạt động sinh viên và triển khai các sáng kiến trên toàn trường.
 - **Notes:** Role and event volunteering supplied by Tung. No start date supplied; omitted rather than inferred.
 
 ### L1

@@ -202,7 +202,7 @@ window.SITE_CONTENT_EN = {
       title: "Innovator, Campus Initiatives",
       meta: "University of St. Thomas",
       points: [
-        "Volunteer at Campus Initiatives events as an Innovator (member).",
+        "Volunteer as an Innovator with Campus Initiatives, a University of St. Thomas organization that coordinates campus sustainability efforts, builds school spirit through student activities, and carries out university-wide initiatives.",
       ],
     },
     {
